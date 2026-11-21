@@ -1,0 +1,42 @@
+{
+  "version": "WP12-gemma1b-memory-v2",
+  "status": "PROPOSED_CONDITIONAL_TECHNICAL_SMOKE_ONLY",
+  "v1_retained": {
+    "RAM_GiB": 3,
+    "VRAM_GiB": 2.5,
+    "decisions_rewritten": false
+  },
+  "model": "gemma3:1b-it-q4_K_M",
+  "manifest_digest": "sha256:313f48e331f7326ce703657512ab64022d8813bbaa512e06d0ace43cb026cf16",
+  "v2_admission": {
+    "host_available_bytes": 2684354560,
+    "GPU_free_MiB": 2048,
+    "system_commit_available_bytes": 3221225472,
+    "stable_host_samples": 5,
+    "stable_span_seconds_at_least": 4
+  },
+  "runtime_host_warning_bytes": 1073741824,
+  "reference_critical_floor_bytes": 805306368,
+  "warning_action": "cancel client HTTP only; server may continue; no process/service termination or retries",
+  "num_ctx": 2048,
+  "num_predict": 384,
+  "num_batch": 32,
+  "temperature": 0,
+  "seed": 20261108,
+  "think": false,
+  "stream": false,
+  "keep_alive": 0,
+  "max_requests": 1,
+  "HTTP_timeout_seconds": 60,
+  "budget_basis": "actual GGUF26layers/1KVhead/256K/256V; FP32fullcontextKV104MiB; runtime margins estimated not measured",
+  "runtime_peak_known": false,
+  "safe_execution_guaranteed": false,
+  "budget_file": "reports/qa/WP12/gemma1b_memory_v2/memory_budget.json",
+  "runner_sha256": "653c36402658f28950051be3279661a9c9cc177206f0af3e647d2ee4ddc397e2",
+  "execution_location": "user non-AppContainer PowerShell only",
+  "model_download": false,
+  "server_restart": false,
+  "real19x3_allowed": false,
+  "source_contract_sha256": "ddd7d292576f6c984a3530bf11463f32010b1287aa781fda7c37f435d6bd15d8",
+  "scenario_sha256": "6b17f8c306c5c39c70e5a160ab001bdb2ceff2b5b5fbbab7bda2d762cf22e73b"
+}

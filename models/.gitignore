@@ -1,0 +1,3 @@
+# Model ağırlıkları ve checkpoint'ler depoda tutulmaz (yeniden üretilebilir).
+*
+!.gitignore

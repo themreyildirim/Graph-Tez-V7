@@ -1,0 +1,8 @@
+# Lisanslı kaynaklardan (DrugBank, SIDER, STRING) türetilmiş tablolar
+# yayımlanmaz: ilaç kayıtları, protein dizileri, yan etki etiketleri,
+# OOF tahminleri, SHAP katkı tabloları. Bkz. DATA_INVENTORY.md
+# Depoda yalnız Türkçe iş paketi raporları (.md) tutulur.
+*
+!*/
+!*.md
+!.gitignore

@@ -1,0 +1,43 @@
+# EMT2 kanıt envanteri
+
+Her satır kendi kanıt dosyasına bağlıdır. Ana satırların SHA değeri yöntem raporuna, ek satırlarınki sayısal çıktı dosyasına aittir. Ham kaynakların yeniden hashlenmesi iddia edilmez.
+
+- **WP00 · Kaynak denetimi**: 56 kimya, 53 ADR, 41 protein bağlantılı ilaç; ortak 38. 605 satır, 590 çift, 550 bilinmeyen. [Kaynak](../reports/WP00.md); §4.1, slayt 2.
+- **WP01 · Graf okuryazarlığı**: 4 ilaç ve 5 proteinden oluşan seçilmiş örnek: 10 kenar, 2 bileşen. [Kaynak](../reports/WP01.md); §4.4, slayt 4.
+- **WP02 · J01 kayıt çözümü**: 19.830 ana kayıt; 237 J01, 233 muhafazakâr aday; 125 DBSALT ana ilaç sayılmaz. [Kaynak](../reports/WP02.md); §5.1, slayt 3.
+- **WP03 · SIDER kimlik köprüsü**: 233 adaydan 167 CID, 62 stereo eşleşmesi; 6.416 benzersiz çift. [Kaynak](../reports/WP03_FINAL_REVIEW.md); §5.1, slayt 3.
+- **WP04 · Moleküler kalite**: 62/62 SMILES parse; 54 QC açık, 8 inceleme; eksik 21 içinden 18 kazanım. [Kaynak](../reports/WP04.md); §4.5, slayt 5.
+- **WP05 · Protein özellikleri**: 141 accession, 140 ayrı temiz dizi, 56 özellik. Dört rol 60/62 ilaçta mevcut. [Kaynak](../reports/WP05.md); §4.5, slayt 5.
+- **WP06 · PPI kapsamı**: İnsan PPI eşiği ≥700: 184 çift. K12 incelemesi encoder dışı. [Kaynak](../reports/WP06.md); §5.2, slayt 4.
+- **WP07 · İlişki şeması**: 62 ilaç, 141 protein, 476 rol kenarı; 1061 PT, 6416 etiket encoder dışında. [Kaynak](../reports/WP07.md); §5.2, slayt 4.
+- **WP08 · B0 / B1 / B2**: paired54 AP: B0_like_B1 0,6438; B1 0,6556; B2 0,6262. Stres B1 0,6319. [Kaynak](../reports/WP08_FINAL_CONCLUSIONS.md); §5.3, slayt 8.
+- **WP09 · Protein mesaj geçişi**: Real 0,642880; noPPI 0,643021; karışık ortalama 0,643259. 3 null başarısız. [Kaynak](../reports/WP09_FINAL_CLOSURE.md); §5.4, slayt 9.
+- **WP10 · A/P faktöriyel**: A0P0 0,642740; A0P1 0,643636; A1P0 0,645930; A1P1 0,646234. [Kaynak](../reports/WP10_FINAL_CLOSURE.md); §5.5, slayt 9.
+- **WP11 · SHAP ve mesaj maskesi**: 742 model/metadata çifti; B1 logit ayrışımı ve A1P1 fixed-degree ayrı. [Kaynak](../reports/WP11_FINAL_CLOSURE.md); §5.8, slayt 10.
+- **WP12 · Kaynak sadakati**: 5/19 senaryo; 3 açıklama, 2 ret. Tamamlanmış yanıtların maliyeti 0,01273125 USD. [Kaynak](../reports/WP12_OPENAI_FIVE_CASE_PILOT_RESULTS_v1.md); §5.9, slayt 11.
+- **WP13 · Türkçe ürünler**: ERİTRO 25 aday; MONODOKS 48 kayıt, 47 farklı terim. [Kaynak](../reports/WP13_TR_SOURCE_v1.md); §5.10, slayt 12.
+- **WP13 · OOF gösterimi**: DB00199: 318 GNN ve 267 B1 PT; DB00254: 240 ve 220. [Kaynak](../reports/WP13_FINAL_DEMO_v2.md); §5.12, slayt 15.
+- **WP13 · Dış sorgu uygunluğu**: 124 replay durumu: 108 parity, 16 abstention; en büyük skor farkı 1,11e−16. [Kaynak](../reports/WP13_TEDIZOLID_PREPARATION_v1.md); §4.10, slayt 13.
+- **WP13 · Dış B1 tahmini**: 5 model, 1294 bireysel skor, 201 ortak PT; aktif DB14569. [Kaynak](../reports/WP13_TEDIZOLID_B1_EXTERNAL_v1.md); §5.11, slayt 13.
+- **WP13 · Dış B1 açıklaması**: 10 PT × 5 model × 6 girdi = 300 katkı; 50 ayrı açıklama. [Kaynak](../reports/WP13_TEDIZOLID_B1_SHAP_v1.md); §5.11, slayt 13.
+- **WP13 · KÜB karşılaştırması**: 76 kaynak terimi; ilk 10: 6 çeviri adayı, 2 ilişkili, 1 sınıf, 1 eşlenmemiş. [Kaynak](../reports/WP13_EXTERNAL_REFERENCE_COMPARISON_v1_CLOSURE.md); §5.11, slayt 14.
+- **WP08 · B0_like_B1**: primary AP=0,643787 [0,602130; 0,681983]; stress AP=0,643993 [0,602932; 0,684432] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP08 · B0_like_B2**: primary AP=0,646604 [0,604371; 0,685339]; stress AP=0,646561 [0,604518; 0,687085] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP08 · B1**: primary AP=0,655642 [0,613111; 0,692041]; stress AP=0,631871 [0,570003; 0,686266] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP08 · B2**: primary AP=0,626239 [0,579200; 0,670094]; stress AP=0,599696 [0,534057; 0,657665] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP09 · WP09_G_noPPI**: primary AP=0,643021 [0,598498; 0,684101]; stress AP=0,647625 [0,598204; 0,695293] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP09 · WP09_G_realPPI**: primary AP=0,642880 [0,597754; 0,684922]; stress AP=0,646605 [0,596392; 0,694412] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP10 · A0P0**: primary AP=0,642740 [0,599338; 0,684775]; stress AP=0,644339 [0,589875; 0,692480] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP10 · A0P1**: primary AP=0,643636 [0,600493; 0,685583]; stress AP=0,644836 [0,590380; 0,693689] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP10 · A1P0**: primary AP=0,645930 [0,602034; 0,686449]; stress AP=0,647070 [0,595567; 0,693796] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP10 · A1P1**: primary AP=0,646234 [0,602210; 0,687649]; stress AP=0,647141 [0,594519; 0,694628] [Kaynak](../reports/qa/WP10/training_v1/metrics_with_group_CI.csv); §5.6, slayt 8–9.
+- **WP12 · Gemma V1 S01**: FAIL; SCHEMA_OR_SOURCE_VALIDATION_FAILED; FAIL_CONTRADICTED [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · Gemma V2 S01**: FAIL; TOKEN_COUNT_ALIGNMENT_FAILED; CORE_SUPPORTED_OMISSIONS [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · Qwen3 4B S01**: NOT_RUN; BLOCKED_HOST_RAM_AND_TOKEN_API_PREREQUISITES; NOT_RUN [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · OpenAI / first account S01**: API_BILLING_BLOCKED_NO_MODEL_OUTPUT; HTTP429 credit_balance_exhausted; NOT_EVALUABLE [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · gpt-5.4-mini-2026-03-17 / corrected account S01**: COMPLETED_PENDING_HUMAN; HTTP200 completed; SUPPORTED_FOR_TWO_RETURNED_ITEMS [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · gpt-5.4-mini-2026-03-17 S07**: COMPLETED_WITH_AGENT_QUALITY_FLAGS; HTTP200 completed / technical PASS; CLASS_SCOPE_AND_BOTH_EXCEPTION_CLAUSES_RETAINED_WITH_NOTES [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · gpt-5.4-mini-2026-03-17 S04**: COMPLETED_WITH_AGENT_REVIEW_NOTES; HTTP200 completed / technical PASS; UNKNOWN_FREQUENCY_AND_PAGE4_CONTEXT_RETAINED_WITH_QUALIFIER_NOTES [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · gpt-5.4-mini-2026-03-17 S16**: COMPLETED_EXPECTED_REFUSAL_AGENT_PENDING_HUMAN; HTTP200 completed / schema and application PASS; EXPECTED_NO_SOURCE_REFUSAL_NO_GENERATED_CLAIMS_IN_THIS_RESPONSE [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP12 · gpt-5.4-mini-2026-03-17 S15**: COMPLETED_EXPECTED_IMAGE_TEXT_REFUSAL_AGENT_PENDING_HUMAN; HTTP200 completed / schema and application PASS; EXPECTED_IMAGE_TEXT_UNAVAILABLE_REFUSAL_NO_GENERATED_CLAIMS_IN_THIS_RESPONSE [Kaynak](../reports/qa/WP12/openai_S15_actual_review_v1/all_real_runs_comparison.csv); §5.9, slayt 11.
+- **WP07 · EMT2 yeni topoloji analizi**: 63 protein / 184 çift; 14 bileşen; yoğunluk 0,0942; büyük bileşen çapı 5 [Kaynak](../EMT2_Teslim_v1/graf_v1/topoloji.json); §5.2, slayt 4.

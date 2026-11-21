@@ -1,0 +1,17 @@
+# WP13 — Dış inference ve attribution genişletme fizibilitesi v2
+
+Sonuç: **B1 sayısal çıkarım çekirdeği mevcut, güvenilir dış kimlik/kimya adapter'ı henüz yok. A1P1 uçtan uca dış query desteklenmiyor. Gerçek dış ilaç denemesi NOT_RUN.** Ayrı sözleşme docs/plan/WP13_EXTERNAL_INFERENCE_ADAPTER_CONTRACT_v1.md.
+
+B1 predict_parameters, sabit katsayı/intercept ile sigmoid(Xβ+b) hesaplar. Bu SIDER observed-record proxy skorudur, klinik sıklık değildir. Gerçek dış ham yapı→doğru5özellik→train-only scaler→6boyut maske hizası yeni bir adapter gerektirir. Salt/ana madde/alias bağımsızlığı bütün62 ilaç ve model train birleşimi üzerinde doğrulanmadan dış validasyon denemez. WP08 JSON/NPZ, feature_schema_v1, transform_fit_sources_and_statistics ve modeli hazırlayan train-only dönüşüm kaynağı birlikte kullanılmalıdır. Mevcut LR'nin vektör kabul etmesi verinin biyolojik/QC doğruluğunu garanti etmez.
+
+A1P1 moleküler builder frozen62 ve54/8 QC guard'ına bağlıdır. Bu guard'ı silmek çözüm değildir. Dış SMILES/QC/atom44/bağ14, protein56 ve dört rol, strictPPI700 sabit train cache,150füzyon ve mevcut scalers/head için ayrı immutable query adapter gerekir. Eksik modalite ancak eğitim semantiğine uygun maskelenebilir; ilişki uydurma veya train grafını dış query ile genişletme yoktur. Destek yoksa STOP. Bu tur model veya preprocessing kodları değiştirilmedi; yeni özellik/forward üretilmedi.
+
+Model/fold/ensemble henüz karar kapısıdır. Öneri önce B1 beş primary modeli ayrı raporlamak, PDF sonuçlarıyla model seçmemek; ortak PT kesişiminde önceden eşit ağırlık seçeneği ancak kullanıcı onayıyla. Kaynak kimliği, input/QC, scaler/head ve yöntem/tahmin hash'leri kilitlenmeden ADR referansı açılmaz. Eski iki ilaç OOF incelemesi retrospektif/keşifseldir, yeni ilaç veya bağımsız prospektif dış test değildir. PDF'de bulunmayan PT negatif değildir; uzman crosswalk olmadan başarı metriği yok.
+
+## Yeni attribution gerekli mi?
+
+WP11 tam dosyaları, önceki demodaki iki örnekten çok daha geniştir. Mevcut SHAP tam başlıklarda; GNN tekil rol/PPI kayıtları da tüm kendi-fold uygun ilaç/PT kapsamındadır. Yeni hesap gerekmeden mevcut dosyalar indekslenebilir; bu sürümde yalnız iki demo ilacının **mevcut** tam kayıtları sunuma alındı. B1 için Erythromycin267, Doxycycline220 PT; A1P1 için318/240 PT mesaj müdahalesi var. Bazı B1 hedefleri GNN başlığından farklı olduğundan biri diğerinin açıklaması değildir.
+
+Gerçekten yeni açıklama gerekiyorsa: dondurulmuş model JSON/NPZ, train/query molekül ve protein grafı, scaler/head, train-only B1 background, WP11 fixed-mask/deletion forward sözleşmesi, cache/state hash'leri ve örnek seçimi ayrı sürümde gerekir. B1 lineer SHAP maliyeti yaklaşık ilaç×PT×6 çarpma; GNN tekil müdahale yaklaşık ilaç×PT×uygulanabilir kenar×iki yöntem ve gerektiğinde fresh cache hesabıdır. Mevcut tam arşiv rol557574/PPI1883402 satırdır; rol/PPI gzip yaklaşık10,8/38,2MB, local SHAP CSV25,3MB. Bunlar yeni hesaplama RAM/süre garantisi değildir. Yeni runtime/peakRAM **NOT_BENCHMARKED**; önce sınırlı bir predeclared kapsam ve kaynak bütçesi önerilip onaylanmalıdır. Sadece metin/grafik üretimi yeni attribution sayılmaz.
+
+Atom/bağ attribution mevcut protein/PPI maskesinin kapsamı değildir; ek yöntem doğrulaması/onayı gerekir. Frozen head dışında PT açıklaması hedef genişletmeden üretilemez. Frozen modelin ağırlığını değiştirmeden yeni head için gerekçe uydurulmaz. Bu tur yeni attribution0, model eğitimi0, dış inference0, API0. Gelecek çalışma sözleşmedeki kapılar ve test planı onaylanmadan başlamaz.

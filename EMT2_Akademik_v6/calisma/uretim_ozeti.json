@@ -1,0 +1,41 @@
+{
+  "cikti": "EMT2_Akademik_v6\\EMT2_FINAL_REPORT.docx",
+  "sablon": "docs/EMT_Sablon_v2025_v3.docx (degistirilmedi)",
+  "kapak_yer_tutucu": 8,
+  "sekil": 18,
+  "cizelge": 11,
+  "sekil_listesi": [
+    "Şekil 2.1 : Veri akışı: kaynak kayıtlardan dondurulmuş skorlara ve açıklamaya.",
+    "Şekil 2.2 : Özellik, denetim ve etiket kolları arasındaki sızıntı sınırı.",
+    "Şekil 4.1 : Kimlik köprüsü: DrugBank ana kaydından SIDER tercih edilen terimine.",
+    "Şekil 4.2 : İnsan proteinleri arasında kaynakta tanımlı etkileşim ağı; bir çizgi hasta olayı değildir.",
+    "Şekil 5.1 : Karşılaştırılan mimarilerde bilgi kanalları ve birleşim noktası.",
+    "Şekil 6.1 : J01 adaylarında ana kimlik ve kaynak eşleşmesinin kapsamı.",
+    "Şekil 6.2 : İnsan altgrafında komşu sayısının dağılımı; 63 protein, 184 yönsüz çift.",
+    "Şekil 6.3 : Ortak 54 ilaçta sıklık ve lojistik modellerin birincil ve stres sonuçları.",
+    "Şekil 6.4 : Ortak ilaçlarda protein ağı topolojisini değiştiren deneyin dondurulmuş sonuçları.",
+    "Şekil 6.5 : Atom ve protein ağı katkıları: sabit dış bölme tahminlerine koşullu faktöriyel farklar.",
+    "Şekil 6.6 : Genişletilmiş varyant ile dondurulmuş karşılaştırma modellerinin ilaç-makro ortalama kesinlik değerleri.",
+    "Şekil 6.7 : İki sıralama yönünün aynı skorlardan okunması.",
+    "Şekil 6.8 : Ağaç tabanlı kolların dondurulmuş referanslarla karşılaştırması; iki protokol.",
+    "Şekil 6.9 : Kayıtlı bir kimyasal modelde tek test örneğinin logit katkıları.",
+    "Şekil 6.10 : Eritromisin için kayıtlı mesaj yolları ve müdahale etkileri.",
+    "Şekil 6.11 : Tedizolid–ishal çifti: beş modelin ayrı logit açıklamaları.",
+    "Şekil 6.12 : Tedizolid ilk on hedefinde kilitli model sırası ve sonradan açılan ürün belgesi karşılığı.",
+    "Şekil 6.13 : Kimliği doğrulanmayan belgede kişiselleştirilmiş tahmin desteklenmez."
+  ],
+  "cizelge_listesi": [
+    "Çizelge 2.1 : Sistem gereksinimleri ve işletim sırasında gözlenebilir kanıt.",
+    "Çizelge 4.1 : Kullanılan kaynaklar, sürümleri ve kanıt işlevleri.",
+    "Çizelge 5.1 : Karşılaştırılan modellerin girdi genişliği ve ek bilgi kanalı.",
+    "Çizelge 6.1 : İlaç kohortunun aşamaları; birimler her satırda yeniden tanımlanır.",
+    "Çizelge 6.2 : Destek eşiğine göre insan protein ağının kapsamı; 63 düğüm sabittir.",
+    "Çizelge 6.3 : Ortak 54 ilaçta referans modellerin ilaç-makro ortalama kesinliği.",
+    "Çizelge 6.4 : Protein ağı topolojisini değiştiren deneyin eşleştirilmiş farkları.",
+    "Çizelge 6.5 : Faktöriyel karşılaştırmada koşullu ana etkiler ve etkileşim.",
+    "Çizelge 6.6 : Aynı dondurulmuş skorların iki yönde okunması; birincil protokol, ortak 54 ilaç.",
+    "Çizelge 6.7 : Ağaç kollarının dondurulmuş referanslarla karşılaştırması; ortak 54 ilaç.",
+    "Çizelge A.1 : Karşılaştırılan modellerin eğitim yapılandırması."
+  ],
+  "not": "Icindekiler / sekil / cizelge listeleri Word alan kodudur; sayfa numaralari disa_aktar.ps1 ile doldurulur."
+}

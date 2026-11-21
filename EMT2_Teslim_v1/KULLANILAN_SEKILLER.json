@@ -1,0 +1,77 @@
+[
+  {
+    "sekil": 1,
+    "kaynak": "reports/figures/WP07/06_leakage_boundary.png",
+    "aciklama": "Özellik, denetim ve etiket kolları arasındaki sızıntı sınırı (WP07)."
+  },
+  {
+    "sekil": "1a",
+    "kaynak": "EMT2_Teslim_v1/graf_v1/sistem_akisi.png",
+    "aciklama": "Sistem mimarisi ve iki kaynak kolu"
+  },
+  {
+    "sekil": 2,
+    "kaynak": "reports/figures/WP03/03_identity_flow.png",
+    "aciklama": "J01 adaylarında ana kimlik ve SIDER eşleşmesinin kapsamı (WP03)."
+  },
+  {
+    "sekil": 3,
+    "kaynak": "reports/figures/WP06/05_human_ppi.png",
+    "aciklama": "İnsan proteinleri arasında kaynakta tanımlı PPI ağı; çizgi bir hasta olayı değildir (WP06)."
+  },
+  {
+    "sekil": 4,
+    "kaynak": "EMT2_Teslim_v1/graf_v1/derece.png",
+    "aciklama": "İnsan-700 altgrafında komşu sayısının dağılımı; 63 protein, 184 yönsüz çift (EMT2 topoloji v1)."
+  },
+  {
+    "sekil": 5,
+    "kaynak": "reports/figures/WP08/final_closure_v1/01_accepted_paired_AP.png",
+    "aciklama": "Ortak 54 ilaçta sıklık ve lojistik modellerin birincil ve stres AP sonuçları (WP08)."
+  },
+  {
+    "sekil": 6,
+    "kaynak": "reports/figures/WP09/final_closure_v1/02_frozen_primary_result.png",
+    "aciklama": "Ortak ilaçlarda PPI topolojisini değiştiren deneyin dondurulmuş sonuçları (WP09)."
+  },
+  {
+    "sekil": 7,
+    "kaynak": "reports/figures/WP10/training_v1/04_factorial_contrasts.png",
+    "aciklama": "Atom ve PPI katkıları: sabit OOF tahminlerine koşullu faktöriyel farklar (WP10)."
+  },
+  {
+    "sekil": 8,
+    "kaynak": "reports/figures/WP08/final_closure_v1/03_target_coverage_limits.png",
+    "aciklama": "Ortak 54 ilaçta skorlanmış çiftler ve hedef sözlüğü dışında kalan gözlenen pozitifler (WP08)."
+  },
+  {
+    "sekil": 9,
+    "kaynak": "reports/figures/WP11/graph_v1/03_Erythromycin_real_network.png",
+    "aciklama": "Eritromisin için kayıtlı A1P1 mesaj yolları ve müdahale etkileri (WP11)."
+  },
+  {
+    "sekil": 10,
+    "kaynak": "reports/figures/WP11/B1_SHAP_v1/03_local_primary_waterfall.png",
+    "aciklama": "Kayıtlı primary B1 modelinde tek test örneğinin logit katkıları (WP11)."
+  },
+  {
+    "sekil": 11,
+    "kaynak": "EMT2_Teslim_v1/ekranlar/03_monodoks.png",
+    "aciklama": "MONODOKS kaynağında terim, fiziksel sayfa ve sıklık; yerel v4 ekranı."
+  },
+  {
+    "sekil": 12,
+    "kaynak": "reports/figures/WP13/tedizolid_B1_SHAP_v1/PT01_C0011991_five_models.png",
+    "aciklama": "Tedizolid–ishal çifti: beş B1 modelinin ayrı logit açıklamaları (WP13)."
+  },
+  {
+    "sekil": 13,
+    "kaynak": "EMT2_Teslim_v1/ekranlar/08_ilk10.png",
+    "aciklama": "Tedizolid ilk on hedefinde kilitli model sırası ve sonradan açılan KÜB karşılığı; yerel v4 ekranı."
+  },
+  {
+    "sekil": 14,
+    "kaynak": "EMT2_Teslim_v1/ekranlar/13_pdf.png",
+    "aciklama": "Kimliği doğrulanmayan örnek PDF ile kişiselleştirilmiş tahmin desteklenmez; yerel v4 testi."
+  }
+]

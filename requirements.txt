@@ -1,0 +1,49 @@
+# Graph-Tez V7 (EMT2) — calisan ortamin gercek surumleri
+# Kaynak: .venv_wp13 (pip list) + reports/qa/WP07/environment.json + .deps/*.dist-info
+# Tarih: 14.11.2026 · Python 3.11.3 (CPython, Windows x86_64)
+#
+# NOT: Bu dosya mevcut sonuclari yeniden uretmek icin DOGRULANMIS surumleri
+# kaydeder; yeni bir kurulum icin test edilmis bir recete degildir. Modeller
+# ve OOF skorlari bu ortamda uretilmistir (bkz. reports/qa/WP09, WP10).
+
+# --- cekirdek sayisal yigin ---
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+scikit-learn==1.9.0
+threadpoolctl==3.6.0
+networkx==3.6.1
+
+# --- derin ogrenme (CPU) ---
+torch==2.13.0
+torch-geometric==2.8.0
+
+# --- kimya / biyoloji ---
+# rdkit ve biopython proje icinde .deps/ altinda vendored olarak tutulur;
+# scriptler import aninda sys.path.insert ile yukler.
+rdkit==2026.9.1
+biopython==1.88
+
+# --- belge isleme (WP12/WP13) ---
+pymupdf==2.1
+
+# --- arayuz ve gorsellestirme ---
+streamlit==1.67.0
+altair==6.2.2
+matplotlib==3.11.0
+plotly==6.8.0
+
+# --- sema dogrulama / API (WP12) ---
+pydantic==2.13.4
+requests==2.32.3
+
+# --- notebook uretimi ---
+nbformat==5.10.4
+jupytext==1.19.4
+ipykernel==7.3.0
+
+# --- rapor uretimi (EMT2_Akademik_v3/calisma/uret_v3.py) ---
+python-docx==1.2.0
+
+# --- test ---
+pytest==9.1.1

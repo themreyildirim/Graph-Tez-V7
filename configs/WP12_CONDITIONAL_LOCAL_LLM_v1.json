@@ -1,0 +1,54 @@
+{
+  "version": "WP12-conditional-local-LLM-v1",
+  "authorization": "USER_EXPLICIT_CONDITIONAL_PLAN",
+  "active_WP": "WP12",
+  "stage_A": {
+    "method": "accepted-v2",
+    "model": "gemma3:1b-it-q4_K_M",
+    "digest": "sha256:97558784bdc9175075a72655bf360b15da17df6b3b9e5182af9f8c0c8e58ba7c",
+    "max_generation_attempts": 1,
+    "status": "NOT_RUN_WAIT_USER_POWERSHELL",
+    "retry": false
+  },
+  "stage_B": {
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "status": "NOT_RUN_CONDITION_NOT_TRIGGERED",
+    "prepare_without_new_method_permission_on": "completed real Gemma V2 response with schema/application/language/source/task FAIL",
+    "technical_no_response_is_not_quality_failure": true,
+    "download": false,
+    "max_generation_attempts": 1,
+    "digest": "NOT_VERIFIED_THIS_STAGE",
+    "same_S01_sources_question_acceptance": true,
+    "same_v2_method_unless_mandatory_model_specific_adaptation": true,
+    "separate_model_bytes_KV_runtime_RAM_GPU_commit_OS_assessment_required": true,
+    "copy_Gemma_low_memory_thresholds": false,
+    "automatic_threshold_reduction": false,
+    "user_PowerShell_command_required_when_safe": true,
+    "retry": false
+  },
+  "stage_C": {
+    "status": "PARTIAL_ONLY_V1_REAL_RESULT_AVAILABLE",
+    "axes": [
+      "schema",
+      "application",
+      "Turkish_quality",
+      "PDF_faithfulness",
+      "page_quote_alignment",
+      "unsupported_refusal_missing_information_invention",
+      "tokens_latency_memory",
+      "human_review_limits"
+    ],
+    "NOT_RUN_for_unexecuted_experiments": true,
+    "PENDING_for_unreviewed_semantics": true,
+    "all_raw_responses_and_failures_preserved": true,
+    "same_case_method_development_not_independent_generalization": true
+  },
+  "stage_D": {
+    "19x3_status": "NOT_AUTHORIZED_TO_AUTOSTART",
+    "requires_user_results_review": true
+  },
+  "new_training": false,
+  "automatic_publication": false,
+  "WP13": false,
+  "new_models_downloaded": false
+}

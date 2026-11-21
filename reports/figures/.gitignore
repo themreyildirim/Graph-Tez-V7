@@ -1,0 +1,3 @@
+# Plotly etkileşimli grafikler tüm veri noktalarını gömülü taşır;
+# depoda yalnız statik PNG görseller tutulur.
+*.html

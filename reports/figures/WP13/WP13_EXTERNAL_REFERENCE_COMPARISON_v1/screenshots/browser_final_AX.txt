@@ -1,0 +1,215 @@
+Browser tab: 13, Title: "Graph-Tez | Final Demo v3", URL: "http://127.0.0.1:8513/".
+1 AXWebArea Graph-Tez | Final Demo v3, URL: 127.0.0.1:8513/
+	2 container
+		3 container
+			4 link Description: Skip to main content, Value: 127.0.0.1:8513/#stMain
+			5 container
+				6 button Deploy
+				7 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+			8 container stMain
+				9 heading Graph-Tez | İlaç Yan Etki Tahmin ve Açıklanabilirlik Sistemi, Value: 1, ID: graph-tez-ilac-yan-etki-tahmin-ve-aciklanabilirlik-sistemi
+					10 text Graph-Tez | İlaç Yan Etki Tahmin ve Açıklanabilirlik Sistemi
+					11 link Description: Link to heading, Value: 127.0.0.1:8513/#graph-tez-ilac-yan-etki-tahmin-ve-aciklanabilirlik-sistemi
+				12 text Araştırma demosu · Kayıtlı tahmin ≠ prospektüs bildirimi ≠ klinik risk
+				13 container
+					14 Description: Çalışma alanı, ID: react-aria2999933703-:rf:
+						15 container
+							16 radio button (settable, integer) Description: Önceki kayıtlı ilaç demosu, Value: 0
+							17 text Önceki kayıtlı ilaç demosu
+						18 container
+							19 radio button (settable, integer) Description: Tedizolid dış tahmin deneyi, Value: 1
+							20 text Tedizolid dış tahmin deneyi
+				21 heading Tedizolid dış tahmin deneyi, Value: 2, ID: tedizolid-dis-tahmin-deneyi
+					22 text Tedizolid dış tahmin deneyi
+					23 link Description: Link to heading, Value: 127.0.0.1:8513/#tedizolid-dis-tahmin-deneyi
+				24 text DB14569 aktif tedizolid · Beş frozen primary B1 kimya modeli · Sonradan açılan SIVEXTRO KÜB referansı
+				25 text Tahmin kolu: DrugBank SMILES → 5 kimyasal özellik + ayrı maske → frozen train-only scaler/LR → kilitli skorlar ve SHAP. PDF bu kola girdi değildir.
+				26 text Keşifsel, etiketlerden izole tek dış ilaç. Önceki arama parçacığı maruziyeti nedeniyle tam araştırmacı körlüğü korunmadı. Skorlar klinik yan etki olasılığı değildir.
+				27 container
+					28 text Kilitli ortak PT
+					29 text 201
+				30 container
+					31 text Önceden seçilen PT
+					32 text 10
+				33 container
+					34 text Ayrı model/PT açıklaması
+					35 text 50
+				36 container
+					37 text KÜB tablo terimi
+					38 text 76
+				39 text 76 tablo terimi klinik olarak doğrulanmış 76 bağımsız olay demek değildir. İnsan/uzman eşleme kararı PENDING; başarı yüzdesi hesaplanmadı.
+				40 heading Kilitli ilk 10 hedef — seçim KÜB görülmeden yapıldı, Value: 3, ID: kilitli-ilk-10-hedef-secim-k-ue-b-goeruelmeden-yapildi
+					41 text Kilitli ilk 10 hedef — seçim KÜB görülmeden yapıldı
+					42 link Description: Link to heading, Value: 127.0.0.1:8513/#kilitli-ilk-10-hedef-secim-k-ue-b-goeruelmeden-yapildi
+				43 container
+					44 button Show/hide columns
+					45 button Download as CSV
+					46 button Search
+					47 button Fullscreen
+					48 container
+						49 image
+							50 table
+								51 row Sıra Türkçe editoryal ad Frozen PT adı PT CUI Kayıt sıralama skoru Kaynak durumu
+									52 cell (selectable) Sıra
+									53 cell (selectable) Türkçe editoryal ad
+									54 cell (selectable) Frozen PT adı
+									55 cell (selectable) PT CUI
+									56 cell (selectable) Kayıt sıralama skoru
+									57 cell (selectable) Kaynak durumu
+								58 container
+									59 row (selectable) 1 İshal Diarrhoea C0011991 0.86419977261064 Tabloda çeviri/eşanlam adayı · PROVISIONAL
+										60 cell (selectable) Value: 1, ID: glide-cell-0-0
+										61 cell (selectable) Value: İshal, ID: glide-cell-1-0
+										62 cell (selectable) Value: Diarrhoea, ID: glide-cell-2-0
+										63 cell (selectable) Value: C0011991, ID: glide-cell-3-0
+										64 cell (selectable) Value: 0.86419977261064, ID: glide-cell-4-0
+										65 cell (selectable) Value: Tabloda çeviri/eşanlam adayı · PROVISIONAL, ID: glide-cell-5-0
+									66 row (selectable) 2 Döküntü Rash C0015230 0.8555337121688298 Tabloda çeviri/eşanlam adayı · PROVISIONAL
+										67 cell (selectable) Value: 2, ID: glide-cell-0-1
+										68 cell (selectable) Value: Döküntü, ID: glide-cell-1-1
+										69 cell (selectable) Value: Rash, ID: glide-cell-2-1
+										70 cell (selectable) Value: C0015230, ID: glide-cell-3-1
+										71 cell (selectable) Value: 0.8555337121688298, ID: glide-cell-4-1
+										72 cell (selectable) Value: Tabloda çeviri/eşanlam adayı · PROVISIONAL, ID: glide-cell-5-1
+									73 row (selectable) 3 Anafilaktik şok Anaphylactic shock C0002792 0.8549201549429218 Çapraz eşleme saptanmadı · negatif değil
+										74 cell (selectable) Value: 3, ID: glide-cell-0-2
+										75 cell (selectable) Value: Anafilaktik şok, ID: glide-cell-1-2
+										76 cell (selectable) Value: Anaphylactic shock, ID: glide-cell-2-2
+										77 cell (selectable) Value: C0002792, ID: glide-cell-3-2
+										78 cell (selectable) Value: 0.8549201549429218, ID: glide-cell-4-2
+										79 cell (selectable) Value: Çapraz eşleme saptanmadı · negatif değil, ID: glide-cell-5-2
+									80 row (selectable) 4 Kusma Vomiting C0042963 0.8478584164804343 Tabloda çeviri/eşanlam adayı · PROVISIONAL
+										81 cell (selectable) Value: 4, ID: glide-cell-0-3
+										82 cell (selectable) Value: Kusma, ID: glide-cell-1-3
+										83 cell (selectable) Value: Vomiting, ID: glide-cell-2-3
+										84 cell (selectable) Value: C0042963, ID: glide-cell-3-3
+										85 cell (selectable) Value: 0.8478584164804343, ID: glide-cell-4-3
+										86 cell (selectable) Value: Tabloda çeviri/eşanlam adayı · PROVISIONAL, ID: glide-cell-5-3
+									87 row (selectable) 5 Karın ağrısı Abdominal pain C0000737 0.8239954830323729 Tabloda çeviri/eşanlam adayı · PROVISIONAL
+										88 cell (selectable) Value: 5, ID: glide-cell-0-4
+										89 cell (selectable) Value: Karın ağrısı, ID: glide-cell-1-4
+										90 cell (selectable) Value: Abdominal pain, ID: glide-cell-2-4
+										91 cell (selectable) Value: C0000737, ID: glide-cell-3-4
+										92 cell (selectable) Value: 0.8239954830323729, ID: glide-cell-4-4
+										93 cell (selectable) Value: Tabloda çeviri/eşanlam adayı · PROVISIONAL, ID: glide-cell-5-4
+									94 row (selectable) 6 Gastrointestinal ağrı Gastrointestinal pain C0687713 0.8239954830323729 Tabloda ilişkili terim · eşdeğerlik kurulmadı
+										95 cell (selectable) Value: 6, ID: glide-cell-0-5
+										96 cell (selectable) Value: Gastrointestinal ağrı, ID: glide-cell-1-5
+										97 cell (selectable) Value: Gastrointestinal pain, ID: glide-cell-2-5
+										98 cell (selectable) Value: C0687713, ID: glide-cell-3-5
+										99 cell (selectable) Value: 0.8239954830323729, ID: glide-cell-4-5
+										100 cell (selectable) Value: Tabloda ilişkili terim · eşdeğerlik kurulmadı, ID: glide-cell-5-5
+									101 row (selectable) 7 Aşırı duyarlılık Hypersensitivity C0020517 0.8210295354958925 Tabloda ilişkili terim · eşdeğerlik kurulmadı
+										102 cell (selectable) Value: 7, ID: glide-cell-0-6
+										103 cell (selectable) Value: Aşırı duyarlılık, ID: glide-cell-1-6
+										104 cell (selectable) Value: Hypersensitivity, ID: glide-cell-2-6
+										105 cell (selectable) Value: C0020517, ID: glide-cell-3-6
+										106 cell (selectable) Value: 0.8210295354958925, ID: glide-cell-4-6
+										107 cell (selectable) Value: Tabloda ilişkili terim · eşdeğerlik kurulmadı, ID: glide-cell-5-6
+									108 row (selectable) 8 Kaşıntı Pruritus C0033774 0.8176698604237534 Tabloda çeviri/eşanlam adayı · PROVISIONAL
+										109 cell (selectable) Value: 8, ID: glide-cell-0-7
+										110 cell (selectable) Value: Kaşıntı, ID: glide-cell-1-7
+										111 cell (selectable) Value: Pruritus, ID: glide-cell-2-7
+										112 cell (selectable) Value: C0033774, ID: glide-cell-3-7
+										113 cell (selectable) Value: 0.8176698604237534, ID: glide-cell-4-7
+										114 cell (selectable) Value: Tabloda çeviri/eşanlam adayı · PROVISIONAL, ID: glide-cell-5-7
+									115 row (selectable) 9 Trombositopeni Thrombocytopenia C0040034 0.8166339399959208 Yalnız sınıf uyarısı · ürün yan etkisi olarak doğrulanmadı
+										116 cell (selectable) Value: 9, ID: glide-cell-0-8
+										117 cell (selectable) Value: Trombositopeni, ID: glide-cell-1-8
+										118 cell (selectable) Value: Thrombocytopenia, ID: glide-cell-2-8
+										119 cell (selectable) Value: C0040034, ID: glide-cell-3-8
+										120 cell (selectable) Value: 0.8166339399959208, ID: glide-cell-4-8
+										121 cell (selectable) Value: Yalnız sınıf uyarısı · ürün yan etkisi olarak doğrulanmadı, ID: glide-cell-5-8
+									122 row (selectable) 10 Ürtiker Urticaria C0042109 0.8055167845143268 Tabloda çeviri/eşanlam adayı · PROVISIONAL
+										123 cell (selectable) Value: 10, ID: glide-cell-0-9
+										124 cell (selectable) Value: Ürtiker, ID: glide-cell-1-9
+										125 cell (selectable) Value: Urticaria, ID: glide-cell-2-9
+										126 cell (selectable) Value: C0042109, ID: glide-cell-3-9
+										127 cell (selectable) Value: 0.8055167845143268, ID: glide-cell-4-9
+										128 cell (selectable) Value: Tabloda çeviri/eşanlam adayı · PROVISIONAL, ID: glide-cell-5-9
+						129 image
+				130 container
+					131 combo box (collapsed, settable) Description: İncelenecek kilitli PT, Value: Anafilaktik şok · C0002792, ID: react-aria2999933703-:r5m:, Secondary Actions: Expand
+					132 pop up button (collapsed) Description: Open, ID: react-aria2999933703-:r5i:, Secondary Actions: Expand
+				133 heading Kayıtlı B1 tahmini ve açıklaması, Value: 3, ID: kayitli-b1-tahmini-ve-aciklamasi
+					134 text Kayıtlı B1 tahmini ve açıklaması
+					135 link Description: Link to heading, Value: 127.0.0.1:8513/#kayitli-b1-tahmini-ve-aciklamasi
+				136 heading Anafilaktik şok, Value: 3, ID: anafilaktik-sok
+					137 text Anafilaktik şok
+					138 link Description: Link to heading, Value: 127.0.0.1:8513/#anafilaktik-sok
+				139 container
+					140 text Beş sigmoid skorunun eşit ağırlıklı ortalaması
+					141 text 0.854920
+				142 text Klinik risk yüzdesi, görülme sıklığı veya kalibre edilmiş olasılık değildir.
+				143 container
+					144 button Show/hide columns
+					145 button Download as CSV
+					146 button Search
+					147 button Fullscreen
+					148 container
+						149 image
+							150 table
+								151 row Frozen primary model Kayıt sıralama skoru
+									152 cell (selectable) Frozen primary model
+									153 cell (selectable) Kayıt sıralama skoru
+								154 container
+									155 row (selectable) 1 0.7833970190657283
+										156 cell (selectable) Value: 1, ID: glide-cell-0-0
+										157 cell (selectable) Value: 0.7833970190657283, ID: glide-cell-1-0
+									158 row (selectable) 2 0.7878258162071945
+										159 cell (selectable) Value: 2, ID: glide-cell-0-1
+										160 cell (selectable) Value: 0.7878258162071945, ID: glide-cell-1-1
+									161 row (selectable) 3 0.9576171086491823
+										162 cell (selectable) Value: 3, ID: glide-cell-0-2
+										163 cell (selectable) Value: 0.9576171086491823, ID: glide-cell-1-2
+									164 row (selectable) 4 0.954741988395959
+										165 cell (selectable) Value: 4, ID: glide-cell-0-3
+										166 cell (selectable) Value: 0.954741988395959, ID: glide-cell-1-3
+									167 row (selectable) 5 0.7910188423965449
+										168 cell (selectable) Value: 5, ID: glide-cell-0-4
+										169 cell (selectable) Value: 0.7910188423965449, ID: glide-cell-1-4
+						170 image
+				171 container
+					172 combo box (collapsed, settable) Description: SHAP açıklaması için bireysel model, Value: 1, ID: react-aria2999933703-:r6h:, Secondary Actions: Expand
+					173 pop up button (collapsed) Description: Open, ID: react-aria2999933703-:r6d:, Secondary Actions: Expand
+				174 container
+					175 button Show data
+					176 button Download as PNG
+					177 button Copy Vega-Lite spec
+					178 button Fullscreen
+					179 container Vega visualization
+						180 image
+							181 container X-axis for a linear scale with values from −0.02 to 0.11 Y-axis for a discrete scale with 6 values: Hidrojen bağı alıcı sayısı, Hidrojen bağı verici sayısı, Kimya bulunabilirlik maskesi, LogP, Molekül ağırlığı, Topolojik polar yüzey alanı SHAP_logit: 0.014799382604; feature_name_tr: Molekül ağırlığı SHAP_logit: −0.0139882298275; feature_name_tr: LogP SHAP_logit: 0.1060530266; feature_name_tr: Hidrojen bağı verici sayısı SHAP_logit: 0.00263721442745; feature_name_tr: Hidrojen bağı alıcı sayısı SHAP_logit: 0.0477810871185; feature_name_tr: Topolojik polar yüzey alanı SHAP_logit: 0; feature_name_tr: Kimya bulunabilirlik maskesi
+								182 axis X-axis for a linear scale with values from −0.02 to 0.11
+								183 axis Y-axis for a discrete scale with 6 values: Hidrojen bağı alıcı sayısı, Hidrojen bağı verici sayısı, Kimya bulunabilirlik maskesi, LogP, Molekül ağırlığı, Topolojik polar yüzey alanı
+								184 container SHAP_logit: 0.014799382604; feature_name_tr: Molekül ağırlığı SHAP_logit: −0.0139882298275; feature_name_tr: LogP SHAP_logit: 0.1060530266; feature_name_tr: Hidrojen bağı verici sayısı SHAP_logit: 0.00263721442745; feature_name_tr: Hidrojen bağı alıcı sayısı SHAP_logit: 0.0477810871185; feature_name_tr: Topolojik polar yüzey alanı SHAP_logit: 0; feature_name_tr: Kimya bulunabilirlik maskesi
+									185 bar SHAP_logit: 0.014799382604; feature_name_tr: Molekül ağırlığı
+									186 bar SHAP_logit: −0.0139882298275; feature_name_tr: LogP
+									187 bar SHAP_logit: 0.1060530266; feature_name_tr: Hidrojen bağı verici sayısı
+									188 bar SHAP_logit: 0.00263721442745; feature_name_tr: Hidrojen bağı alıcı sayısı
+									189 bar SHAP_logit: 0.0477810871185; feature_name_tr: Topolojik polar yüzey alanı
+									190 bar SHAP_logit: 0; feature_name_tr: Kimya bulunabilirlik maskesi
+				191 text B1 primary model1, Anafilaktik şok (Anaphylactic shock): train-only background’a göre logiti artırıcı kimyasal katkılar: Molekül ağırlığı (0.014799382604025663); Hidrojen bağı verici sayısı (0.10605302660023726); Hidrojen bağı alıcı sayısı (0.002637214427448468); Topolojik polar yüzey alanı (0.04778108711848403). Azaltıcı kimyasal katkılar: LogP (-0.01398822982750719). Kimya maskesi ayrı: SHAP=0.0. Base=1.128291038312689 ve katkı toplamı=0.1572824809226882, kilitli logit=1.2855735192353772 ile uyumludur. Bu bireysel model açıklamasıdır; ortak201 skor ortalamasının SHAP’ı veya biyolojik neden değildir.
+				192 text Pozitif/negatif katkı bu B1 modelinin logitini train background’una göre artırır/azaltır. Kimya maskesi ayrı değişkendir; biyolojik mekanizma kanıtı değildir. Ortak skor ortalamasının ensemble SHAP’ı değildir.
+				193 button (collapsed) Beş modelin mevcut SHAP grafiği ve değerleri, Secondary Actions: Expand
+					194 text Beş modelin mevcut SHAP grafiği ve değerleri
+				195 heading Sonradan açılan bağımsız KÜB referansı, Value: 3, ID: sonradan-acilan-bagimsiz-k-ue-b-referansi
+					196 text Sonradan açılan bağımsız KÜB referansı
+					197 link Description: Link to heading, Value: 127.0.0.1:8513/#sonradan-acilan-bagimsiz-k-ue-b-referansi
+				198 container
+					199 text Ürün:  SIVEXTRO 200 mg/flakon tedizolid fosfat; intravenöz infüzyonluk liyofilize toz.
+				200 text Aktif tedizolid ile fosfat ön ilacı aynı moleküler girdi değildir. 4.8 güvenlilik verileri oral ve/veya IV havuzudur; yalnız IV insidansı değildir. Güncellik doğrulanmadı.
+				201 text Çapraz eşleme saptanmadı · negatif değil · İnsan incelemesi PENDING
+				228 text Bu PT için kaynak eşleme adayı saptanmadı. Bu durum gerçek negatif veya kesin yanlış tahmin değildir. Aşırı duyarlılık, anafilaktik şok yerine geçirilmedi.
+				229 button (collapsed) Tam 4.8 bağlamı, sıklık başlıkları ve ürün farkı, Secondary Actions: Expand
+					230 text Tam 4.8 bağlamı, sıklık başlıkları ve ürün farkı
+				231 text PROVISIONAL çapraz eşleme, uzman onaylı MedDRA çevirisi değildir. Daha geniş/dar kavramlar, sınıf uyarıları ve laboratuvar düşüşleri doğrudan ürün yan etkisiyle birleştirilmez.
+				221 button (collapsed) Tüm 201 PT, beş model skoru ve kaynak eşleme adayları, Secondary Actions: Expand
+					222 text Tüm 201 PT, beş model skoru ve kaynak eşleme adayları
+				223 button (collapsed) KÜB’deki tüm 76 tablo terimi — ilk10 dışında kalanlar dahil, Secondary Actions: Expand
+					224 text KÜB’deki tüm 76 tablo terimi — ilk10 dışında kalanlar dahil
+				225 button (collapsed) Kilitler, kaynak kimliği ve yöntem sınırları, Secondary Actions: Expand
+					226 text Kilitler, kaynak kimliği ve yöntem sınırları
+				227 text OFFLINE · Yeni eğitim, prediction forward, SHAP hesabı, API, OCR veya otomatik insan onayı yok.
+
+The focused UI element is 131 combo box (collapsed, settable) Description: İncelenecek kilitli PT, Value: Anafilaktik şok · C0002792, ID: react-aria2999933703-:r5m:, Secondary Actions: Expand

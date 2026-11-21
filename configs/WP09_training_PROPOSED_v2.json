@@ -1,0 +1,100 @@
+{
+  "version": "WP09-training-PROPOSED-v2",
+  "status": "AWAITING_SEPARATE_TRAINING_APPROVAL",
+  "training_enabled": false,
+  "scope_now": "design/data/forward-gradient validation only",
+  "exploratory_after_seen_WP08_baselines": true,
+  "cohort": 62,
+  "proxy": "observed SIDER record; unknown NOT verified negative; not clinical risk",
+  "threshold": {
+    "recommended_primary": 700,
+    "approved_primary": null,
+    "sensitivities": [
+      400,
+      900
+    ],
+    "reason": "400 coverage-first initial proposal has 0/40 accepted nulls; 700 has 39/40, retains same outer test drug any-role coverage as 400 in both protocols; 900 loses coverage"
+  },
+  "architecture": {
+    "protein_features": 56,
+    "protein_hidden": 32,
+    "PPI_layers": 1,
+    "chemistry_hidden": 8,
+    "role_readout": "four separate masked means",
+    "drug_representation_dim": 141,
+    "head": "single linear train-PT logits",
+    "batchnorm": false,
+    "dropout": 0.0,
+    "message": "z=relu(Px); h=z+relu(Sz+M mean_neighbor(z)); empty neighbors mean zero"
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.001
+  },
+  "loss": {
+    "name": "BCEWithLogitsLoss",
+    "reduction": "mean over valid train targets per eligible drug, then mean drugs",
+    "unknown_encoding": "0 proxy only, not verified negative",
+    "class_weight": null,
+    "pos_weight": null,
+    "single_proxy_outcome_train_target": "NA; no fallback"
+  },
+  "epochs": {
+    "maximum": 200,
+    "inner_early_stopping": "drug-macro observed-record AP",
+    "patience": 20,
+    "min_delta": 0.0001,
+    "restore": "best inner validation epoch; ties earliest",
+    "outer_refit_epochs": "rounded median of valid selected inner epochs; no outer test early stopping"
+  },
+  "selection": {
+    "new_hyperparameter_search": false,
+    "minimum_valid_inner_folds": 2,
+    "fewer_valid_folds": "outer result NA_selection_insufficient; no constant fallback",
+    "candidate_target_scope": "frozen B2 train dictionary and shared train-fittable mask; same within each inner fold",
+    "outer_test_for_decisions": false,
+    "fixed_references": "WP08 B0/B1/B2 no refit"
+  },
+  "seed": {
+    "base": 20261106,
+    "init_formula": "base + 10000*protocol_index + 100*outer_fold + inner_fold",
+    "same_initial_state_across_ablations": true,
+    "seed_search": false,
+    "device": "CPU",
+    "threads": 1,
+    "deterministic_algorithms": true,
+    "cross_version_bitwise_guarantee": false
+  },
+  "PPI_universe": "only train-linked validated sequence accessions; strict human induced PPI",
+  "query": "unseen sequence accession self-only; no query-to-train messages; missing all modalities abstain",
+  "context80": false,
+  "K12_MG1655_PPI_in_human": false,
+  "STRING_score_as_feature_or_weight": false,
+  "shuffle": {
+    "swaps_per_edge": 10,
+    "attempts_per_edge": 200,
+    "minimum_changed_fraction": 0.5,
+    "seed_base": 20261106,
+    "seed_formula": "base + 10000 + 100*sorted_context_index + threshold",
+    "design_nulls_per_context_threshold": 1,
+    "future_proposed_null_replicates": 3,
+    "failure": "NA_shuffle_insufficient; no unchanged-graph fallback",
+    "label_or_performance_selection": false
+  },
+  "future_null_replicate_seeds": "design_seed + 1000000*replicate_index, indices 0,1,2; no cherry-picking",
+  "evaluation": "not executed; same frozen primary/stress split; exact paired54/NA scope, own61 separate",
+  "uncertainty": "future fixed OOF structural-group paired bootstrap, conditional; not external validation",
+  "open_gate": [
+    "primary PPI threshold",
+    "projection/readout capacity",
+    "proxy loss and optimizer/LR",
+    "epoch/early-stop/outer refit policy",
+    "seed policy",
+    "shuffle attempts/change threshold/three null replicates",
+    "accept explicit NA/null failure policy or authorize a separately versioned topology-only null rule; 700 has one failing inner context"
+  ],
+  "previous_proposal_sha256": "09dd0821ea140e2a86759dd5b9ad8a444a061352da96789ce0dd310b8ad39bc7",
+  "revision_basis": "label-independent topology and null feasibility only; no performance calculated or used",
+  "null_failure_policy": "Keep NA_shuffle_insufficient; never retry seeds or lower 0.5 rule to turn observed failures into success; incomplete null comparison needs explicit approval"
+}

@@ -1,0 +1,18 @@
+# Yerel Windows ortamındaki veri kökünü Codex başlatıldığında doğrula.
+# Bu dosya yalnız örnek yapılandırmadır, yol erişimini kanıtlamaz.
+dataset_root: 'C:\Users\emrey\OneDrive\Masaüstü\Tez Dosyalar\Dataset'
+read_only: true
+mandatory_filenames:
+  - 'full database.xml'
+  - 'meddra_all_se.tsv'
+  - 'drug links.csv'
+legacy_qc_filenames:
+  - 'ilac_feature_v5_atc.csv'
+  - 'ilac_yan_etki_v5.csv'
+  - 'ilac_protein_eslesmesi_v6.csv'
+  - 'protein_dizileri_v6.csv'
+  - 'protein_feature_v6.csv'
+conditional_ppi_filenames:
+  - 'ppi_insan_v3.csv'
+  - 'ppi_bakteri_v3.csv'
+strict_allowlist: true

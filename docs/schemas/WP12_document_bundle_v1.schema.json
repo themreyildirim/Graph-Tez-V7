@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:graph-tez:wp12:document-bundle:v1",
+  "title": "WP12 user-supplied PDF provenance bundle",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "WP12-document-bundle-v1"
+    },
+    "data_status": {
+      "enum": [
+        "awaiting_user_pdfs",
+        "technical_test_fixture",
+        "user_pdf_records"
+      ]
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/document"
+      }
+    },
+    "extraction_runs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/run"
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/page"
+      }
+    },
+    "quotes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/quote"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "data_status",
+    "documents",
+    "extraction_runs",
+    "pages",
+    "quotes"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "receipt": {
+      "type": "object",
+      "properties": {
+        "receipt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_kind": {
+          "const": "user_provided_pdf"
+        },
+        "receipt_kind": {
+          "enum": [
+            "user_attachment",
+            "explicit_user_file"
+          ]
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_filename": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supplied_at": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "receipt_id",
+        "source_kind",
+        "receipt_kind",
+        "reference",
+        "original_filename",
+        "supplied_at"
+      ],
+      "additionalProperties": false
+    },
+    "document": {
+      "type": "object",
+      "properties": {
+        "document_id": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "raw_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "raw_size_bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "mime_type": {
+          "const": "application/pdf"
+        },
+        "declared_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "page_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "receipts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/receipt"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "document_id",
+        "raw_sha256",
+        "raw_size_bytes",
+        "mime_type",
+        "declared_version",
+        "page_count",
+        "receipts"
+      ],
+      "additionalProperties": false
+    },
+    "run": {
+      "type": "object",
+      "properties": {
+        "extraction_run_id": {
+          "type": "string",
+          "pattern": "^run:[0-9a-f]{64}$"
+        },
+        "document_id": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "extractor_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "extractor_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "extractor_options": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "created_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "partial",
+            "complete"
+          ]
+        }
+      },
+      "required": [
+        "extraction_run_id",
+        "document_id",
+        "extractor_name",
+        "extractor_version",
+        "extractor_options",
+        "created_at",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "page_id": {
+          "type": "string",
+          "pattern": "^page:[0-9a-f]{64}$"
+        },
+        "document_id": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "extraction_run_id": {
+          "type": "string",
+          "pattern": "^run:[0-9a-f]{64}$"
+        },
+        "page_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "printed_page_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "text_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "text_length_codepoints": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "text_status": {
+          "enum": [
+            "text_extracted",
+            "no_text"
+          ]
+        }
+      },
+      "required": [
+        "page_id",
+        "document_id",
+        "extraction_run_id",
+        "page_index",
+        "page_number",
+        "printed_page_label",
+        "text",
+        "text_sha256",
+        "text_length_codepoints",
+        "text_status"
+      ],
+      "additionalProperties": false
+    },
+    "quote": {
+      "type": "object",
+      "properties": {
+        "quote_id": {
+          "type": "string",
+          "pattern": "^quote:[0-9a-f]{64}$"
+        },
+        "document_id": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "extraction_run_id": {
+          "type": "string",
+          "pattern": "^run:[0-9a-f]{64}$"
+        },
+        "page_id": {
+          "type": "string",
+          "pattern": "^page:[0-9a-f]{64}$"
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "char_start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "char_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quote_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "claim_kind": {
+          "const": "verbatim_source_quote"
+        }
+      },
+      "required": [
+        "quote_id",
+        "document_id",
+        "extraction_run_id",
+        "page_id",
+        "page_number",
+        "char_start",
+        "char_end",
+        "quote",
+        "quote_sha256",
+        "claim_kind"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "WP12-preparation-v1",
+  "source_policy": "only_user_supplied_pdf_files",
+  "state": "AWAITING_USER_PDFS",
+  "automatic_discovery": false,
+  "network_download": false,
+  "extractor_implemented": false,
+  "Ollama_or_LLM_enabled": false,
+  "training_enabled": false,
+  "source_documents_writable": false,
+  "model_input_or_label_updates_allowed": false,
+  "raw_PDF_hash": "SHA-256 exact original bytes;not computed until provided",
+  "page_index": "0-based physical index",
+  "page_number": "page_index+1",
+  "text_offsets": "Python Unicode codepoints;[start,end);exact stored page string",
+  "source_normalization": "NONE",
+  "contract_file": "docs/schemas/WP12_document_bundle_v1.schema.json"
+}

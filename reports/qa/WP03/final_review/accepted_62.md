@@ -1,0 +1,64 @@
+| DrugBank ID | İlaç | Benzersiz PT | Mevcut kimya | XML protein kimliği | Eski V6 38 üyeliği |
+|---|---|---|---|---|---|
+| DB00479 | Amikacin | 27 | Yok | Var | Yok |
+| DB01060 | Amoxicillin | 79 | Var | Var | Var |
+| DB00415 | Ampicillin | 27 | Var | Var | Var |
+| DB00207 | Azithromycin | 177 | Var | Var | Yok |
+| DB01053 | Benzylpenicillin | 135 | Var | Var | Var |
+| DB00578 | Carbenicillin | 26 | Var | Var | Var |
+| DB01327 | Cefazolin | 84 | Yok | Var | Yok |
+| DB00535 | Cefdinir | 100 | Yok | Var | Yok |
+| DB01413 | Cefepime | 91 | Yok | Var | Yok |
+| DB00671 | Cefixime | 49 | Yok | Var | Yok |
+| DB00493 | Cefotaxime | 58 | Yok | Var | Yok |
+| DB01331 | Cefoxitin | 62 | Yok | Var | Yok |
+| DB01416 | Cefpodoxime | 174 | Yok | Var | Yok |
+| DB01150 | Cefprozil | 59 | Yok | Var | Yok |
+| DB06590 | Ceftaroline fosamil | 44 | Yok | Var | Yok |
+| DB00438 | Ceftazidime | 79 | Yok | Var | Yok |
+| DB01332 | Ceftizoxime | 42 | Yok | Var | Yok |
+| DB01212 | Ceftriaxone | 105 | Yok | Var | Yok |
+| DB01112 | Cefuroxime | 112 | Yok | Var | Yok |
+| DB00567 | Cephalexin | 76 | Yok | Var | Yok |
+| DB00446 | Chloramphenicol | 52 | Var | Var | Yok |
+| DB00827 | Cinoxacin | 27 | Var | Var | Var |
+| DB00537 | Ciprofloxacin | 431 | Var | Var | Var |
+| DB01211 | Clarithromycin | 203 | Var | Var | Yok |
+| DB00485 | Dicloxacillin | 75 | Var | Var | Var |
+| DB06211 | Doripenem | 33 | Var | Var | Var |
+| DB00254 | Doxycycline | 150 | Var | Yok | Yok |
+| DB00303 | Ertapenem | 282 | Var | Var | Var |
+| DB00199 | Erythromycin | 56 | Var | Var | Yok |
+| DB00301 | Flucloxacillin | 61 | Var | Var | Var |
+| DB02703 | Fusidic acid | 44 | Yok | Var | Yok |
+| DB01044 | Gatifloxacin | 174 | Var | Var | Var |
+| DB01155 | Gemifloxacin | 148 | Var | Var | Var |
+| DB00798 | Gentamicin | 74 | Yok | Var | Yok |
+| DB01172 | Kanamycin | 24 | Var | Var | Yok |
+| DB01137 | Levofloxacin | 338 | Var | Var | Var |
+| DB00601 | Linezolid | 115 | Var | Yok | Yok |
+| DB00978 | Lomefloxacin | 186 | Var | Var | Var |
+| DB06799 | Methenamine | 11 | Yok | Yok | Yok |
+| DB00916 | Metronidazole | 205 | Var | Var | Var |
+| DB00607 | Nafcillin | 57 | Var | Var | Var |
+| DB00779 | Nalidixic acid | 47 | Yok | Var | Yok |
+| DB00698 | Nitrofurantoin | 85 | Var | Var | Var |
+| DB01059 | Norfloxacin | 149 | Var | Var | Var |
+| DB01165 | Ofloxacin | 233 | Var | Var | Var |
+| DB04911 | Oritavancin | 46 | Yok | Var | Yok |
+| DB00713 | Oxacillin | 47 | Yok | Var | Yok |
+| DB00595 | Oxytetracycline | 28 | Var | Var | Yok |
+| DB00417 | Phenoxymethylpenicillin | 19 | Var | Var | Var |
+| DB00319 | Piperacillin | 102 | Var | Var | Var |
+| DB01208 | Sparfloxacin | 216 | Var | Var | Var |
+| DB00919 | Spectinomycin | 12 | Var | Var | Yok |
+| DB00359 | Sulfadiazine | 67 | Var | Var | Var |
+| DB01015 | Sulfamethoxazole | 81 | Var | Var | Var |
+| DB00259 | Sulfanilamide | 2 | Var | Var | Yok |
+| DB00976 | Telithromycin | 143 | Var | Yok | Yok |
+| DB00560 | Tigecycline | 173 | Var | Var | Yok |
+| DB00911 | Tinidazole | 86 | Var | Yok | Yok |
+| DB00684 | Tobramycin | 158 | Var | Yok | Yok |
+| DB00440 | Trimethoprim | 94 | Var | Var | Var |
+| DB00685 | Trovafloxacin | 196 | Var | Var | Var |
+| DB00512 | Vancomycin | 80 | Var | Yok | Yok |

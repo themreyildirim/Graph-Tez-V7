@@ -1,0 +1,42 @@
+﻿Fiziksel sayfa,Sayfa başı / tür,EMT2 karşılığı,Çıkarılan sayfa metni SHA256
+1,İSTANBUL TEKNİK ÜNİVERSİTESİ ★ İŞLETME FAKÜLTESİ ANTİBİYOTİK YAN ETKİLERİNİN HETEROJEN AĞ MODELLERİ ÜZERİ,Resmî başlık ve ekip,f7a55920fbecde7e57006cadad0a3483e7fb1489d64f0e9b937dadd75b768c29
+2,"ÖNSÖZ Antibiyotik tedavisinin yan etki profili, modern klinik karar süreçlerinin en kritik belirleyiciler",Önsöz,b855bd8151a5842d4c8087b1f889c888f865878203927c9e5fb93156e049064a
+3,2,Ayırıcı,29866f949e90c0f382252d0c5d16ae9ef7ff0b3f7112defa1ac49d7ca60d870a
+4,İÇİNDEKİLER Sayfa ÖNSÖZ..................................................................................,Yeni içindekiler,8c147bfe9d99320d91a0905074a62473e80a8f7ad14cd4f31d79c4b1d63d34b5
+5,4.2.5 STRING v12.........................................................................................,Yeni içindekiler,1c1c00b990a3ac59118ec5c7487c61e1078cc5c23c55ae095a153774dfb41fee
+6,ÇİZELGE LİSTESİ Sayfa Çizelge 2.1 : Paydaş analizi ve sistem üzerindeki etkiler. 4 Çizelge 2.2 : MedDRA h,Çizelge listesi,a1816e534af9990364783a7d89025d1bda2f0b57dc114eacc9fbd602278f864d
+7,6,Ayırıcı,7a70daf12948dabbbb55959899781393bd2cfe9ebab0781e0470af2e46df4c0b
+8,KISALTMALAR AAC : Amino Asit Bileşimi (Amino Acid Composition) ADR : Advers İlaç Reaksiyonu (Adverse Drug,Kısaltmalar,3ae78a9886016b1969e6ef5e6569d9903ae55896553efe52c974b2da4f99a3f2
+9,8,Ayırıcı,924a7773fecf4d35260f3d5eddfb6e66f04b5c447b44660ecc24f6341871e440
+10,ŞEKİL LİSTESİ Sayfa Şekil 4.1 : Önerilen karar destek sistemi mimarisi. 12 9,Şekil listesi,a16caa9fe341753d16ad8de111ab5dbf02b3088802c4a117510e097b17de9ccd
+11,10,Ayırıcı,7c14ed25febfdde745c3da60bb50e505887fc632c43b9a33124cd7ab30191984
+12,SEMBOLLER G : Heterojen bilgi grafı V : Tüm düğümlerin kümesi E : Tüm kenarların kümesi T_V : Düğüm tip f,Semboller,2720b8ebc78dfdae099867f4433c24e10df75cf6a04a5075366aec1591f006b9
+13,12,Ayırıcı,9605c97debbee81db167d67f12aef9b17d1407713e68662a85214f66cf42cea2
+14,ANTİBİYOTİK YAN ETKİLERİNİN HETEROJEN AĞ MODELLERİ ÜZERİNDEN ÖNGÖRÜLMESİNE YÖNELİK KARAR DESTEK SİSTEMİ T,Türkçe Özet,e61ce087cb89f00f687df97417cc3c0d0f79c8171201b2caca2238e8eeb1d22c
+15,14,Ayırıcı,da1eb38924630cbbdc02311f613ddcb88d47354a1a1ea9bd41ba6bb5186ae88a
+16,DESIGN OF A DECISION SUPPORT SYSTEM FOR PREDICTING ANTIBIOTIC SIDE EFFECTS THROUGH HETEROGENEOUS NETWORK ,English Summary,34fba1a07bd3da895f165dfe34b9ce7211051ab3dd004db6cd83512682691a9a
+17,"1. GİRİŞ İlaç tedavisi; biyolojik bileşenler, klinik gözlemler ve çevresel etmenlerin birlikte etki ettiğ",§1,c46b7c91d38dfd01d0260e406e23b6357d1965a11281c76d5c98cd2bc2b0af05
+18,"1.2 Problemin Tanımı Mevcut farmakovijilans verileri çoğu zaman parçalı, farklı kod sistemlerine bağlı ve",§1,fbd6466bd9308c418011e0f245d296f309abb1025c167f8a2092a07f607a3243
+19,"2. SİSTEM ANALİZİ Bu bölümde tasarlanan çözümün hangi sistem içinde çalışacağı, sistemin sınırları, payda",§2,4059671091dfc9ac784e8fcf78f080a5bf4ac6c9d41c74a48fea332419a5c4ec
+20,"yalnızca teknik doğrulukla değil, yorumlanabilirlik ve güvenilirlik ölçütleriyle de değerlendirilmesi ger",§2,4ed9d0406434aef5ca88e935c469eadbbea7e39eaeb15391c3f186dd575144f8
+21,Başarı ölçütleri bu aşamada hedef düzeyinde tanımlanmıştır. Sınıflandırma performansı için AUROC değerini,§2,ee5a234621b3f9b3440d6caf36b408bb0608ed0795b4d9fa14831db057af58c1
+22,"ATC sınıflandırmasının beş seviyeli yapısını göstermektedir. Bu iki standart, verinin karşılaştırılabilir",§2,12acf2704163f6f0ff72f4c7622ae1b3d3b5a426c58e3841ed1cd17f727c796b
+23,3. LİTERATÜR TARAMASI Bu bölümde; tasarımın metodolojik zeminini oluşturan akademik çalışmalar incelenmek,§3,49a0c36c605464e049787a5d3fb40dba640b1941b72555c7ae551354f23c2f94
+24,3.2 Öğrenme Paradigmaları Graf üzerinde öğrenme yaklaşımları iki temel paradigmaya ayrılmaktadır. Bu ayrı,§3,d855173120b89326f5cd74beb570dd3012ab7f160054b350003644ba35daa781
+25,"sorununu kısmen gidermektedir [11]. Personalized PageRank yöntemi, RWR ile benzer özelliklere sahip olmak",§3,d54c5ffd7868053ff75066c102cd8e63be5d6a04fe3f8081274a3e4a6971a722
+26,3.5 Açıklanabilirlik Teknikleri Klinik karar destek uygulamalarında modelin neden belirli bir skor üretti,§3,793d14763c35337c16e879764cbbefe8034829115c83d8652d75eaab5cd49e97
+27,"4.YÖNTEMBİLİM Bu bölümde sistemin veri girişinden karar destek çıktısına uzanan metodolojik yapısı, kulla",§4,baaff6802b73e6d9acfedeaf31f295310590d050b6193119e7b3fb824427ff39
+28,"Şekil 4.1 : Önerilen karar destek sistemi mimarisi. 4.2 Veri Kaynakları 4.2.1 DrugBank 5.1 DrugBank 5.1, ",§4,aa9a028c180e5050164c18e6c9f2bc44ae3057d6e8c6fae4374033ba07e28432
+29,"4.2.4 UniProt REST API UniProt REST API, protein amino asit dizilerinin doğrulanması ve eksik dizilerin t",§4,62c363d48fa983854e6645f91e2ca88c01a026b6cac3671add9a7bcefa3fa6b8
+30,bir ilişkiye eşlemektedir. Düğüm kümeleri ve karşılık gelen özellik matrisleri Denklem 4.2 ila 4.7 ile ta,§4,b8640101d4309d6f8438478b21a9ebe4e83d7fad6b880bba6000b23e00f4bd54
+31,Burada ∥ vektör birleştirme (concatenation) işlemini göstermektedir. Dördüncü adımda yan etki gömme vektö,§4,aec274a38d90ac0bfc7e474dabf98206a55f0c92d5c604742cb1ca3367a54f75
+32,4.6 Hesaplama Karmaşıklığının Yönetimi Milyonlarca düğüm ve kenar barındıran biyomedikal kaynaklarla çalı,§4,c69cab03045e87996874ef7aa6067e865a22927e5b4687550e01c6a6902c173d
+33,5. UYGULAMA Bu bölümde metodoloji bölümünde açıklanan veri hazırlık sürecinin bu rapor kapsamında hangi ç,§5,f3d54da35d49137ad67322ac6e448166a53bad221ea7bdc21aa2a2571be7c68d
+34,"Sürecin uygulanması; Python ekosistemi içerisinde pandas, numpy, xml.etree.ElementTree, requests, torch v",§5,8f3900f1bd3719d14e4492bb8f30bcab3456864cdab54fc1bddef5a5712bed66
+35,"6. SONUÇ VE ÖNERİLER Bu rapor, antibiyotik yan etkilerinin heterojen graf temelli bir karar destek sistem",§6,6bc2f51facf865af73c0e528892f3fa3f10b967b3db79d591139f428a84b23cc
+36,"[20]. Toplumsal açıdan sistem, advers olayların erken öngörülmesine katkı sağlayarak hasta güvenliğini ve",§6,8560d4314164abd446e3a9065668a241632f38d4f822b064511001af319123c2
+37,KAYNAKLAR [1] EMT-Proje-Bilgi-Formu-2024-25_V3_KM. (2024). İTÜ Endüstri Mühendisliği Tasarım Projesi Proj,Kaynak denetimi,e2518c6f7e2f6f4df1d0f9c2cebd00dcf2023d9d9d925940fcfd0ac3c832a31f
+38,[12] PMC. (2019). Discovering links between side effects and drugs using a diffusion based method. https:,Kaynak denetimi,bdf9e0d1ba6021fae399b5ef3390d0d6104d4b07c53fb58a545a33a657be967e
+39,23,Ayırıcı,9a54a541dc688ed27bbc451b9e033bd09fdcce5454f3dcce81411356af5e0f8b
+40,Özgeçmiş; kişisel bilgiler teslim tablosuna aktarılmadı.,İdari teyit,010830ad37552482e24af2cad424377e328302dea5896157cb442c09205876fe
+41,Özgeçmiş; kişisel bilgiler teslim tablosuna aktarılmadı.,İdari teyit,95f04927bf9131ebd5178826616d71ed770a7a53c496960d9cba22cea431714b

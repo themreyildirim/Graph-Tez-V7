@@ -1,0 +1,16 @@
+const assert = require('node:assert/strict');
+const {parseCSV,utf8Length,profile} = require('../scripts/wp00_drive_qc.cjs');
+const t=parseCSV('\uFEFFid,name\r\nDB1,"a,b"\r\nDB2,"line\nquote ""yes"""\r\n');
+assert.equal(t.rows.length,2);
+assert.equal(t.rows[0].name,'a,b');
+assert.equal(t.rows[1].name,'line\nquote "yes"');
+assert.throws(()=>parseCSV('a,b\n1\n'),/Malformed/);
+assert.throws(()=>parseCSV('a,b\n"open'),/Unclosed/);
+assert.throws(()=>parseCSV('a,a\n1,2'),/Duplicate header/);
+assert.equal(utf8Length('İş😀'),8);
+const text='id,x\nDB1,\nDB1,\n';
+const p=profile('sample',text,{size:Buffer.byteLength(text),id:'fixture'}).profile;
+assert.equal(p.duplicate_full_rows_excess,1);
+assert.equal(p.columns[1].missing_count,2);
+assert.equal(p.size_matches,true);
+console.log('Drive CSV parser: quoted comma/newline/quote, BOM, malformed rows, unclosed quotes, duplicate header, UTF-8 and missingness checks passed.');

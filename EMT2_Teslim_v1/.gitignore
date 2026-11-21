@@ -1,0 +1,4 @@
+# Sayfa render dökümleri ve ara denetim çıktıları depoda tutulmaz.
+build/
+*.inspect.ndjson
+*PROJE_BILGI_FORMU*

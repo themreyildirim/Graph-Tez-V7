@@ -1,0 +1,6 @@
+# Ham ve ara veri depoda tutulmaz. Kaynak listesi yalnız isim/sürüm/lisans
+# olarak DATA_INVENTORY.md içinde belgelenir.
+*
+!*/
+!.gitignore
+!raw/README_DATA.md

@@ -1,0 +1,3 @@
+# Makineye özgü yerel veri yolu yapılandırması; şablon:
+# configs/data_paths.example.yaml
+data_paths.yaml

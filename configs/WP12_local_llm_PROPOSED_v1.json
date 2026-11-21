@@ -1,0 +1,41 @@
+{
+  "version": "WP12-local-llm-PROPOSED-v1",
+  "status": "DESIGN_ONLY_AWAITING_APPROVAL",
+  "purpose": "source-grounded Turkish explanation of frozen user PDF quotes only",
+  "inference_authorized": false,
+  "install_or_pull_authorized": false,
+  "preferred_candidate": "qwen3:1.7b",
+  "approved_model_digest": null,
+  "existing_cached_alternative": "qwen3:4b-instruct-2507-q4_K_M",
+  "proposed_options": {
+    "num_ctx": 2048,
+    "num_predict": 384,
+    "temperature": 0,
+    "seed": 20261108,
+    "stream": false,
+    "keep_alive": 0,
+    "parallel_requests": 1,
+    "think": false
+  },
+  "options_status": "PROPOSED_NOT_EXECUTED; verify engine/model capabilities after approval",
+  "context_admission": "actual tokenizer full prompt+schema+sources <=1536 tokens; reserve384 output+128 safety; no truncation; reject or split preserving dependencies",
+  "token_count_status": "NOT_MEASURED_NO_MODEL_TOKENIZER",
+  "memory_admission_heuristic": {
+    "host_available_GiB_at_least": 3.0,
+    "GPU_free_GiB_at_least": 2.5,
+    "status": "planning guard for small candidate, not vendor minimum or fit guarantee"
+  },
+  "endpoint_future": "loopback only; never remote/cloud fallback; no endpoint contacted now",
+  "model_policy": "no automatic pull, no best-output selection; model/digest/runtime/prompt frozen before first inference",
+  "release_policy": "structural pass then mandatory documented human semantic review; no automatic release",
+  "forbidden": [
+    "training",
+    "model_score_generation",
+    "SHAP_generation",
+    "delta_z_generation",
+    "new_side_effects",
+    "MedDRA_labels",
+    "PDF_to_training_features",
+    "WP13"
+  ]
+}

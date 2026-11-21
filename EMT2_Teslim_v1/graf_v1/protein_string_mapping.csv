@@ -1,0 +1,142 @@
+﻿accession,protein_name,organism,taxid,organism_group,network_taxid,scope,status,string_id,candidate_count,alias_identity_unique,strict_taxon_match
+A0A0H2XJ39,Penicillin-binding protein 3,Staphylococcus aureus (strain USA300),367830,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+B2ZTR6,Beta-lactamase,Acinetobacter baumannii,470,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+B4YQT9,Gyrase A,Mycobacterium tuberculosis,1773,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+C3T8E2,Multidrug resistance protein MdtK,Escherichia coli,562,bacteria,511145,species_only_strain_unresolved,unmatched_accession_alias,,0,False,False
+D6R448,Penicillin-binding protein 2,Staphylococcus aureus,1280,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+O15244,Solute carrier family 22 member 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000355920,1,True,True
+O15245,Solute carrier family 22 member 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000355930,1,True,True
+O15439,ATP-binding cassette sub-family C member 4,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000494609,1,True,True
+O25608,Oxygen-insensitive NADPH nitroreductase,Helicobacter pylori (strain ATCC 700392 / 26695),85962,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+O43193,Motilin receptor,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000218721,1,True,True
+O76082,Organic cation/carnitine transporter 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000402760,1,True,True
+O94956,Solute carrier organic anion transporter family member 2B1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000289575,1,True,True
+O95342,Bile salt export pump,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000497931,1,True,True
+P00374,Dihydrofolate reductase,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000396308,1,True,True
+P00484,Chloramphenicol acetyltransferase 3,Escherichia coli,562,bacteria,511145,species_only_strain_unresolved,unmatched_accession_alias,,0,False,False
+P00551,Aminoglycoside 3'-phosphotransferase,Escherichia coli,562,bacteria,511145,species_only_strain_unresolved,unmatched_accession_alias,,0,False,False
+P00808,Beta-lactamase,Bacillus licheniformis,1402,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P02763,Alpha-1-acid glycoprotein 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000259396,1,True,True
+P02768,Albumin,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000295897,1,True,True
+P02918,Penicillin-binding protein 1A,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3396,1,True,False
+P02919,Penicillin-binding protein 1B,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b0149,1,True,False
+P04190,Metallo-beta-lactamase type 2,Bacillus cereus,1396,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P04798,Cytochrome P450 1A1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000378488,1,True,True
+P05057,Aminoglycoside nucleotidyltransferase (4'),Staphylococcus aureus,1280,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P05164,Myeloperoxidase,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000225275,1,True,True
+P05177,Cytochrome P450 1A2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000342007,1,True,True
+P05653,DNA gyrase subunit A,Bacillus subtilis (strain 168),224308,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P08149,"Probable peptidoglycan D,D-transpeptidase PenA",Neisseria gonorrhoeae,485,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P08164,NH(3)-dependent NAD(+) synthetase,Bacillus subtilis (strain 168),224308,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P08174,Complement decay-accelerating factor,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000356030,1,True,True
+P08183,ATP-dependent translocase ABCB1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000478255,1,True,True
+P08506,D-alanyl-D-alanine carboxypeptidase DacC,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b0839,1,True,False
+P08684,Cytochrome P450 3A4,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000498939,1,True,True
+P0A0K8,DNA gyrase subunit B,Staphylococcus aureus,1280,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P0A3M5,Penicillin-binding protein 2B,Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4),170187,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P0A3M6,Penicillin-binding protein 2B,Streptococcus pneumoniae (strain ATCC BAA-255 / R6),171101,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P0A4L9,DNA gyrase subunit B,Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4),170187,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P0A7J6,Large ribosomal subunit protein uL10,Shigella flexneri,623,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P0A7R5,Small ribosomal subunit protein uS10,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3321,1,True,False
+P0A7S3,Small ribosomal subunit protein uS12,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3342,1,True,False
+P0A7S9,Small ribosomal subunit protein uS13,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3298,1,True,False
+P0A7U3,Small ribosomal subunit protein uS19,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3316,1,True,False
+P0A7V8,Small ribosomal subunit protein uS4,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3296,1,True,False
+P0A7X3,Small ribosomal subunit protein uS9,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3230,1,True,False
+P0ABQ4,Dihydrofolate reductase,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b0048,1,True,False
+P0AC13,Dihydropteroate synthase,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3177,1,True,False
+P0AD65,"Peptidoglycan D,D-transpeptidase MrdA",Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b0635,1,True,False
+P0AD68,"Peptidoglycan D,D-transpeptidase FtsI",Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b0084,1,True,False
+P0ADY7,Large ribosomal subunit protein uL16,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3313,1,True,False
+P0AEB2,D-alanyl-D-alanine carboxypeptidase DacA,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b0632,1,True,False
+P0AES4,DNA gyrase subunit A,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b2231,1,True,False
+P0AES6,DNA gyrase subunit B,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3699,1,True,False
+P0AFI5,D-alanyl-D-alanine endopeptidase,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b2134,1,True,False
+P0AG59,Small ribosomal subunit protein uS14,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3307,1,True,False
+P0C1U9,DNA topoisomerase 4 subunit A,Staphylococcus aureus,1280,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P10632,Cytochrome P450 2C8,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000360317,1,True,True
+P10635,Cytochrome P450 2D6,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000496150,1,True,True
+P11245,Arylamine N-acetyltransferase 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000286479,1,True,True
+P11388,DNA topoisomerase 2-alpha,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000411532,1,True,True
+P11509,Cytochrome P450 2A6,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000301141,1,True,True
+P11712,Cytochrome P450 2C9,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000260682,1,True,True
+P12461,Thymidylate synthase,Yeast,237561,fungus,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P13551,Elongation factor G,Thermus thermophilus,274,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P14677,Penicillin-binding protein 2x,Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4),170187,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P15104,Glutamine synthetase,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000307900,1,True,True
+P16435,NADPH--cytochrome P450 reductase,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000419970,1,True,True
+P16444,Dipeptidase 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000376807,1,True,True
+P17117,Oxygen-insensitive NADPH nitroreductase,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b0851,1,True,False
+P18440,Arylamine N-acetyltransferase 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000443194,1,True,True
+P19652,Alpha-1-acid glycoprotein 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000394936,1,True,True
+P20815,Cytochrome P450 3A5,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000222982,1,True,True
+P20831,DNA gyrase subunit A,Staphylococcus aureus,1280,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P21397,Amine oxidase [flavin-containing] A,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000340684,1,True,True
+P22309,UDP-glucuronosyltransferase 1A1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000304845,1,True,True
+P24093,Dr hemagglutinin structural subunit,Escherichia coli,562,bacteria,511145,species_only_strain_unresolved,unmatched_accession_alias,,0,False,False
+P24228,D-alanyl-D-alanine carboxypeptidase DacB,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b3182,1,True,False
+P24462,Cytochrome P450 3A7,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000337450,1,True,True
+P26841,Chloramphenicol acetyltransferase,Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228),208964,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P27169,Serum paraoxonase/arylesterase 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000222381,1,True,True
+P27338,Amine oxidase [flavin-containing] B,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000367309,1,True,True
+P33261,Cytochrome P450 2C19,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000360372,1,True,True
+P33527,Multidrug resistance-associated protein 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000382342,1,True,True
+P40933,Interleukin-15,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000296545,1,True,True
+P42971,Penicillin-binding protein 3,Bacillus subtilis (strain 168),224308,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P43700,DNA gyrase subunit A,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),71421,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P43702,DNA topoisomerase 4 subunit A,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),71421,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P44469,"Peptidoglycan D,D-transpeptidase MrdA",Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),71421,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P45059,"Peptidoglycan D,D-transpeptidase FtsI",Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),71421,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P46059,Solute carrier family 15 member 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000365686,1,True,True
+P46721,Solute carrier organic anion transporter family member 1A2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000305974,1,True,True
+P47712,Cytosolic phospholipase A2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000356436,1,True,True
+P48775,"Tryptophan 2,3-dioxygenase",Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000444788,1,True,True
+P51580,Thiopurine S-methyltransferase,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000312304,1,True,True
+P52647,Probable pyruvate-flavodoxin oxidoreductase,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b1378,1,True,False
+P53985,Monocarboxylate transporter 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000441065,1,True,True
+P60568,Interleukin-2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000226730,1,True,True
+P62580,Chloramphenicol acetyltransferase,Salmonella typhi,90370,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P62593,Beta-lactamase TEM,Escherichia coli,562,bacteria,511145,species_only_strain_unresolved,unmatched_accession_alias,,0,False,False
+P70174,Histamine H1 receptor,Mouse,10090,other_eukaryote,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P72355,Penicillin-binding protein 4,Staphylococcus aureus,1280,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P72524,DNA gyrase subunit A,Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4),170187,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P72525,DNA topoisomerase 4 subunit A,Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4),170187,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+P76577,Penicillin-binding protein 1C,Escherichia coli (strain K12),83333,bacteria,511145,K12_parent_vs_MG1655_substrain,exact_alias_K12_parent_scope_review,511145.b2519,1,True,False
+P98164,Low-density lipoprotein receptor-related protein 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000496870,1,True,True
+P9WQG9,Aminoglycoside 2'-N-acetyltransferase,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),83332,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q02880,DNA topoisomerase 2-beta,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000264331,1,True,True
+Q04707,Penicillin-binding protein 1A,Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4),170187,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q12809,Voltage-gated inwardly rectifying potassium channel KCNH2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000262186,1,True,True
+Q16348,Solute carrier family 15 member 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000417085,1,True,True
+Q27738,dihydropteroate synthase,Plasmodium falciparum,5833,other_eukaryote,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q2M3G0,ATP-binding cassette sub-family B member 5,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000384881,1,True,True
+Q47066,Beta-lactamase Toho-1,Escherichia coli,562,bacteria,511145,species_only_strain_unresolved,unmatched_accession_alias,,0,False,False
+Q4U2R8,Solute carrier family 22 member 6,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000367102,1,True,True
+Q51504,"Peptidoglycan D,D-transpeptidase FtsI",Pseudomonas aeruginosa,,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q53707,MecA PBP2' (penicillin binding protein 2'),Staphylococcus aureus,1280,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q56148,Chloramphenicol 3-O phosphotransferase,Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 / PD 04745),953739,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q59192,DNA topoisomerase 4 subunit B,Bacillus subtilis (strain 168),224308,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q59961,DNA topoisomerase 4 subunit B,Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4),170187,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q60FT7,"Peptidoglycan D,D-transpeptidase FtsI",Haemophilus influenzae,727,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q6ZQN7,Solute carrier organic anion transporter family member 4C1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000309741,1,True,True
+Q75Y35,serine-type D-Ala-D-Ala carboxypeptidase,Streptococcus pneumoniae,1313,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q7CRA4,Penicillin-binding protein 1b,Streptococcus pneumoniae (strain ATCC BAA-255 / R6),171101,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q86VL8,Multidrug and toxin extrusion protein 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000326671,1,True,True
+Q8DNB6,Penicillin-binding protein 2a,Streptococcus pneumoniae (strain ATCC BAA-255 / R6),171101,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q8DR59,Penicillin-binding protein 1A,Streptococcus pneumoniae (strain ATCC BAA-255 / R6),171101,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q8L103,Penicillin binding protein,Helicobacter pylori,210,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q8TCC7,Organic anion transporter 3,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000337335,1,True,True
+Q8XJ01,Penicillin-binding protein 1A,Clostridium perfringens (strain 13 / Type A),195102,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q92887,ATP-binding cassette sub-family C member 2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000497274,1,True,True
+Q96BD0,Solute carrier organic anion transporter family member 4A1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000217159,1,True,True
+Q96FL8,Multidrug and toxin extrusion protein 1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000270570,1,True,True
+Q9H015,Solute carrier family 22 member 4,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000200652,1,True,True
+Q9NPD5,Solute carrier organic anion transporter family member 1B3,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000261196,1,True,True
+Q9NSA0,Solute carrier family 22 member 11,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000301891,1,True,True
+Q9UIG8,Solute carrier organic anion transporter family member 3A1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000320634,1,True,True
+Q9UM07,Protein-arginine deiminase type-4,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000364597,1,True,True
+Q9UNQ0,Broad substrate specificity ATP-binding cassette transporter ABCG2,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000498246,1,True,True
+Q9X6V3,"Peptidoglycan D,D-transpeptidase MrdA",Pseudomonas aeruginosa,,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q9X6W0,Penicillin-binding protein 1B,Pseudomonas aeruginosa,,bacteria,,outside_available_network_taxa,out_of_scope_organism,,0,False,False
+Q9Y694,Solute carrier family 22 member 7,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000361666,1,True,True
+Q9Y6L6,Solute carrier organic anion transporter family member 1B1,Humans,9606,human,9606,exact_taxon,exact_alias_exact_taxon,9606.ENSP00000256958,1,True,True

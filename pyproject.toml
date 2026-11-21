@@ -1,0 +1,28 @@
+# Graph-Tez V7 (EMT2) — proje ustverisi
+# Bu dosya paket kurulumu icin DEGIL, ortam ve arac ayarlarini tek yerde
+# toplamak icindir. Kod `scripts/` altinda duz modul olarak durur ve
+# `sys.path` uzerinden yuklenir; mevcut hash-kilitli yapi degistirilmedi.
+
+[project]
+name = "graph-tez-v7"
+version = "7.0.0"
+description = "Antibakteriyel ilac - yan etki iliskilerinin heterojen ag ve graf sinir aglari ile modellenmesi (EMT2)"
+requires-python = "==3.11.3"
+readme = "GUNCEL_DURUM.md"
+
+[tool.graph_tez]
+# Ham veri kokunun varsayilani. Ortam degiskeni GRAPH_TEZ_DATA_ROOT veya
+# configs/data_paths.yaml ile ezilebilir (bkz. scripts/paths.py).
+# Yerel yol depoda tutulmaz. Oncelik: GRAPH_TEZ_DATA_ROOT ortam degiskeni,
+# sonra configs/data_paths.yaml (sablon: configs/data_paths.example.yaml).
+data_root_default = ""
+frozen_results = true
+training_enabled = false
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 120

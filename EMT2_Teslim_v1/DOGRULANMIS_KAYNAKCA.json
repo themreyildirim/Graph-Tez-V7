@@ -1,0 +1,100 @@
+[
+  {
+    "doi": "10.1093/nar/gkv1075",
+    "url": "https://doi.org/10.1093/nar/gkv1075",
+    "yazar": "Kuhn, Letunic, Jensen, Bork",
+    "baslik": "The SIDER database of drugs and side effects",
+    "yil": 2016
+  },
+  {
+    "doi": "10.1093/nar/gkx1037",
+    "url": "https://doi.org/10.1093/nar/gkx1037",
+    "yazar": "Wishart, Feunang, Guo, Lo vd.",
+    "baslik": "DrugBank 5.0: a major update to the DrugBank database for 2018",
+    "yil": 2018
+  },
+  {
+    "doi": "10.1093/nar/gkac1000",
+    "url": "https://doi.org/10.1093/nar/gkac1000",
+    "yazar": "Szklarczyk, Kirsch, Koutrouli, Nastou vd.",
+    "baslik": "The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest",
+    "yil": 2023
+  },
+  {
+    "doi": "10.1039/C7SC02664A",
+    "url": "https://doi.org/10.1039/C7SC02664A",
+    "yazar": "Wu, Ramsundar, Feinberg, Gomes vd.",
+    "baslik": "MoleculeNet: a benchmark for molecular machine learning",
+    "yil": 2018
+  },
+  {
+    "doi": "10.1371/journal.pone.0118432",
+    "url": "https://doi.org/10.1371/journal.pone.0118432",
+    "yazar": "Saito, Rehmsmeier",
+    "baslik": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "yil": 2015
+  },
+  {
+    "doi": "10.1145/1401890.1401920",
+    "url": "https://doi.org/10.1145/1401890.1401920",
+    "yazar": "Elkan, Noto",
+    "baslik": "Learning classifiers from only positive and unlabeled data",
+    "yil": 2008
+  },
+  {
+    "doi": "10.1371/journal.pone.0302281",
+    "url": "https://doi.org/10.1371/journal.pone.0302281",
+    "yazar": "Sun, Yin, Lu",
+    "baslik": "ISLRWR: A network diffusion algorithm for drug–target interactions prediction",
+    "yil": 2025
+  },
+  {
+    "doi": "10.1371/journal.pone.0266435",
+    "url": "https://doi.org/10.1371/journal.pone.0266435",
+    "yazar": "Chen, Shih, Chien, Tsai",
+    "baslik": "Predicting adverse drug effects: A heterogeneous graph convolution network with a multi-layer perceptron approach",
+    "yil": 2022
+  },
+  {
+    "doi": "10.1093/bioinformatics/bty294",
+    "url": "https://doi.org/10.1093/bioinformatics/bty294",
+    "yazar": "Zitnik, Agrawal, Leskovec",
+    "baslik": "Modeling polypharmacy side effects with graph convolutional networks",
+    "yil": 2018
+  },
+  {
+    "doi": "10.18653/v1/2023.emnlp-main.398",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.398",
+    "yazar": "Gao, Yen, Yu, Chen",
+    "baslik": "Enabling Large Language Models to Generate Text with Citations",
+    "yil": 2023
+  },
+  {
+    "doi": "10.1016/0378-8733(78)90021-7",
+    "url": "https://doi.org/10.1016/0378-8733(78)90021-7",
+    "yazar": "Freeman",
+    "baslik": "Centrality in social networks: Conceptual clarification",
+    "yil": "1978–1979"
+  },
+  {
+    "doi": "10.1038/s42256-019-0048-x",
+    "url": "https://doi.org/10.1038/s42256-019-0048-x",
+    "yazar": "Rudin",
+    "baslik": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+    "yil": 2019
+  },
+  {
+    "doi": "—",
+    "url": "https://proceedings.mlr.press/v70/gilmer17a.html",
+    "yazar": "Gilmer, Schoenholz, Riley, Vinyals ve Dahl",
+    "baslik": "Neural Message Passing for Quantum Chemistry",
+    "yil": 2017
+  },
+  {
+    "doi": "—",
+    "url": "https://papers.nips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+    "yazar": "Lundberg ve Lee",
+    "baslik": "A Unified Approach to Interpreting Model Predictions",
+    "yil": 2017
+  }
+]

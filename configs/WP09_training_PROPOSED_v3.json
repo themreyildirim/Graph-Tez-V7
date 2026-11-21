@@ -1,0 +1,121 @@
+{
+  "version": "WP09-training-PROPOSED-v3",
+  "status": "AWAITING_EXPLICIT_TRAINING_APPROVAL",
+  "training_enabled": false,
+  "scope_now": "null policy and common-scope preflight only; no model construction/fit/optimizer/PT scores",
+  "exploratory_after_seen_WP08_baselines": true,
+  "cohort": 62,
+  "proxy": "observed SIDER record; unknown NOT verified negative; not clinical risk",
+  "threshold": {
+    "recommended_primary": 700,
+    "approved_primary": null,
+    "sensitivities": [
+      400,
+      900
+    ],
+    "sensitivity_status": "deferred; not part of first WP09 primary fit request",
+    "reason": "user-retained topology/null-feasibility proposal; not predictive optimization"
+  },
+  "architecture": {
+    "protein_features": 56,
+    "protein_hidden": 32,
+    "PPI_layers": 1,
+    "chemistry_hidden": 8,
+    "role_readout": "four separate masked means",
+    "drug_representation_dim": 141,
+    "head": "single linear train-PT logits",
+    "batchnorm": false,
+    "dropout": 0.0,
+    "message": "z=relu(Px); h=z+relu(Sz+M mean_neighbor(z)); empty neighbors mean zero"
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.001
+  },
+  "loss": {
+    "name": "BCEWithLogitsLoss",
+    "reduction": "mean over valid train targets per eligible drug, then mean drugs",
+    "unknown_encoding": "0 proxy only, not verified negative",
+    "class_weight": null,
+    "pos_weight": null,
+    "single_proxy_outcome_train_target": "NA; no fallback"
+  },
+  "epochs": {
+    "maximum": 200,
+    "inner_early_stopping": "drug-macro observed-record AP",
+    "patience": 20,
+    "min_delta": 0.0001,
+    "restore": "best inner validation epoch; ties earliest",
+    "outer_refit_epochs": "floor(median(selected epochs on common valid inner folds)+0.5), separately per variant/null replicate; never outer-test early-stop"
+  },
+  "selection": {
+    "new_hyperparameter_search": false,
+    "minimum_valid_inner_folds": 2,
+    "fewer_valid_folds": "entire outer primary comparison NA_selection_insufficient, all three variants; no fit/fallback to rescue",
+    "candidate_target_scope": "frozen B2 train dictionary and shared train-fittable mask; same within each inner fold",
+    "outer_test_for_decisions": false,
+    "fixed_references": "WP08 B0/B1/B2 no refit",
+    "common_inner_set": "intersection of topology-valid folds (all 3 nulls OK) and finite/evaluable validation folds for all 5 fits (noPPI, realPPI, 3 shuffled)",
+    "skipped_inner_folds": "all variants excluded together from primary selection/epoch summary; frozen split membership unchanged",
+    "metric_NA_rule": "exclude only undefined/nonfinite or failed fit, never low metric; support/NA logged",
+    "epoch_tie_rule": "earliest epoch; improvement requires > min_delta",
+    "shuffle_summary": "metrics per fixed null replica plus equal mean of three metrics; no averaging PT predictions; no best replica"
+  },
+  "seed": {
+    "base": 20261106,
+    "init_formula": "base + 10000*protocol_index + 100*outer_fold + inner_fold",
+    "same_initial_state_across_ablations": true,
+    "seed_search": false,
+    "device": "CPU",
+    "threads": 1,
+    "deterministic_algorithms": true,
+    "cross_version_bitwise_guarantee": false
+  },
+  "PPI_universe": "only train-linked validated sequence accessions; strict human induced PPI",
+  "query": "unseen sequence accession self-only; no query-to-train messages; missing all modalities abstain",
+  "context80": false,
+  "K12_MG1655_PPI_in_human": false,
+  "STRING_score_as_feature_or_weight": false,
+  "shuffle": {
+    "swaps_per_edge": 10,
+    "attempts_per_edge": 200,
+    "minimum_changed_fraction": 0.5,
+    "seed_base": 20261106,
+    "seed_formula": "base + 10000 + 100*sorted_context_index + threshold",
+    "design_nulls_per_context_threshold": 1,
+    "future_proposed_null_replicates": 3,
+    "failure": "NA_shuffle_insufficient; no unchanged-graph fallback",
+    "label_or_performance_selection": false,
+    "algorithm": "unchanged wp09_shuffle.shuffle_pairs, accepted double-edge switches",
+    "replicates": 3,
+    "replicate_indices": [
+      0,
+      1,
+      2
+    ],
+    "replicate_seed_formula": "base + 10000 + 100*sorted_context_index + 700 + 1000000*replicate_index",
+    "same_original_start_each_replicate": true,
+    "retry_or_best_replica_selection": false,
+    "greater_budget_or_first_threshold_crossing_stop": false,
+    "candidate_acceptance": "10*E accepted swaps within 200*E attempts AND removed_original_edges/E >=0.5",
+    "ensemble_prediction": false,
+    "uniform_sampling_or_independence_guarantee": false
+  },
+  "future_null_replicate_seeds": "design_seed + 1000000*replicate_index, indices 0,1,2; no cherry-picking",
+  "evaluation": "not executed; same frozen primary/stress split; exact paired54/NA scope, own61 separate",
+  "uncertainty": "future fixed OOF structural-group paired bootstrap, conditional; not external validation",
+  "open_gate": [
+    "explicit training approval of v3 including missing-null/common-fold policy; no remaining automatic choices"
+  ],
+  "previous_proposal_sha256": "a736085d6917020562136554e60cc65a7ff7486b546298f9c3b0d92f028e5ca4",
+  "revision_basis": "Preserve generator/seeds/0.5 criterion; specify three fixed null replicates and shared inner/outer NA rules before new preflight outcomes",
+  "null_failure_policy": {
+    "inner": "Any failed null replica -> that inner fold excluded for ALL variants/replicas from primary comparison; raw failure NA retained",
+    "outer": "Any failed final null replica -> entire outer primary triad comparison NA_null_outer; no replacement by real/noPPI",
+    "minimum_common_inner": 2,
+    "numerical_or_metric_failure": "apply same common-fold rule after inner validation; no score-based fold selection",
+    "cohort": "keep 62 IDs and reasons; report missing outer coverage, never call incomplete result full 5-fold/all62 performance",
+    "old_failed_null": "old rep0 remains NA; rep1/rep2 never replace it"
+  }
+}
